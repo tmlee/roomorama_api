@@ -8,15 +8,12 @@ For a step by step guide on getting started with Roomorama API, refer to https:/
 
 Add this line to your application's Gemfile:
 
-    gem 'roomorama_api'
+    gem 'roomorama_api', :git => 'git@github.com:tmlee/roomorama_api.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install roomorama_api
 
 ## Usage
 
