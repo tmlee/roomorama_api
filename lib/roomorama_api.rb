@@ -13,36 +13,36 @@ module RoomoramaApi
 
 
 		BASE_URL = 'https://api.roomorama.com/'
-		API_VERSION = 'v1.0/'
+		API_VERSION = 'v1.0'
 
 		### Destinations
 
 		def destinations_all
-			api_call "destinations.json"
+			api_call "destinations"
 		end
 
 		#### Properties
 
 		def properties_find(options={})
-			api_call "rooms.json", options
+			api_call "rooms", options
 		end
 
 		def properties_get_data(room_id, options={})
-			api_call "rooms/" + room_id.to_s + ".json", options
+			api_call "rooms/" + room_id.to_s, options
 		end
 
 		def properties_find_similar(room_id, options={})
-			api_call "rooms/" + room_id.to_s + "/similar.json", options
+			api_call "rooms/" + room_id.to_s + "/similar", options
 		end
 
 		def properties_availabilities(room_id, options={})
-			api_call "rooms/" + room_id.to_s + "/availabilities.json", options
+			api_call "rooms/" + room_id.to_s + "/availabilities", options
 		end
 
 		#### Perks
 
 		def perks_list(options={})
-			api_call "perks.json", options
+			api_call "perks", options
 		end
 
 		def perks_get_data(perk_id, options={})
@@ -52,11 +52,11 @@ module RoomoramaApi
 		#### Users
 
 		def users_me(options={})
-			api_call "me.json", options
+			api_call "me", options
 		end
 
 		def users_update_profile(options={})
-			api_call "me.json", options, :put
+			api_call "me", options, :put
 		end
 
 		def users_get_data(user_id, options={})
@@ -71,20 +71,21 @@ module RoomoramaApi
 		private
 
 		def api_url
-			BASE_URL + API_VERSION
+			BASE_URL + API_VERSION + '/'
 		end
 
 		def api_call(method_name, options, verb=:get)
 			options["access_token"] = @oauth_token
 			response = connection(method_name, options, verb)
-			parse_response response.body
+			parse_response response
 		end
 
 		def parse_response(response)
-			if response == " "
+			raise_errors response
+			if response.body == " "
 				{}
 			else
-				JSON.parse response
+				JSON.parse response.body
 			end
 		end
 
@@ -112,6 +113,33 @@ module RoomoramaApi
 			options.collect { |key, value| "#{key}=#{value}" }.join('&')
 		end
 
+		def raise_errors(response)
+      		message = "(#{response.status})"
+      		
+      		case response.status.to_i
+      		  when 400
+      		    raise BadRequest, message
+      		  when 401
+      		    raise Unauthorized, message
+      		  when 403
+      		    raise General, message
+      		  when 404
+      		    raise NotFound, message
+      		  when 500
+      		    raise InternalError, "An internal error is thrown."
+      		  when 502..503
+      		    raise Unavailable, message
+      		end
+    	end
+
 	end
+
+
+	class BadRequest < StandardError; end
+  	class Unauthorized      < StandardError; end
+  	class General           < StandardError; end
+  	class Unavailable       < StandardError; end
+  	class InternalError     < StandardError; end
+  	class NotFound          < StandardError; end
 
 end
