@@ -49,11 +49,6 @@ module RoomoramaApi
 			api_call "users/", to_query_params(options)
 		end
 
-
-
-
-
-
 		private
 
 		def api_url
@@ -66,13 +61,17 @@ module RoomoramaApi
 		end
 
 		def parse_response(response)
-			JSON.parse response
+			if response == " "
+				{}
+			else
+				JSON.parse response
+			end
 		end
 
 		def connection(method_name, options)
 			conn = Faraday.new(:url => api_url) do |faraday|
 				faraday.request  :url_encoded
-  				faraday.response :logger
+  				#faraday.response :logger
   				faraday.adapter  Faraday.default_adapter
 			end
 			response = conn.get(method_name + "?" + options)
