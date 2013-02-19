@@ -1,6 +1,10 @@
 # RoomoramaApi
 
-TODO: Write a gem description
+Ruby wrapper to call Roomorama API V1.0 at https://roomorama.com/api.
+
+For a step by step guide on getting started with Roomorama API, refer to https://roomorama.com/api/step_by_step.
+
+This gem does not support OAuth calls yet.
 
 ## Installation
 
@@ -18,12 +22,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Currently this gem does not handle any oauth authentication or oauth api calls yet. All public calls are supported except user:register.
 
-## Contributing
+### Initialize a client
+	
+	client = RoomoramaApi::Client.new
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+### Get all destinations
+
+	client.destinations_all
+
+### Search for properties/rooms
+
+	client.properties_find destination: 'singapore'
+	client.properties_find destination: 'singapore', order: 'title_asc'
+
+### Get data for a give property/room
+
+	client.properties_get_data 500, strip_html: 'false'
+
+### Supported API Calls
+
+	destinations_all
+	properties_find
+	properties_get_data
+	properties_find_similar
+	properties_availabilities
+	perks_list
+	perks_get_data
+	users_get_data
+
