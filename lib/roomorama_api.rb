@@ -9,6 +9,12 @@ module RoomoramaApi
 		BASE_URL = 'https://api.roomorama.com/'
 		API_VERSION = 'v1.0/'
 
+		### Destinations
+
+		def destinations_all
+			api_call "destinations.json"
+		end
+
 		#### Properties
 
 		def properties_find(options={})
@@ -26,6 +32,26 @@ module RoomoramaApi
 		def properties_availabilities(room_id, options={})
 			api_call "rooms/" + room_id.to_s + "/availabilities.json", to_query_params(options)
 		end
+
+		#### Perks
+
+		def perks_list(options={})
+			api_call "perks.json", to_query_params(options)
+		end
+
+		def perks_get_data(perk_id, options={})
+			api_call "perks/" + perk_id.to_s, to_query_params(options)
+		end
+
+		#### Users
+
+		def users_get_data(user_id, options={})
+			api_call "users/", to_query_params(options)
+		end
+
+
+
+
 
 
 		private
