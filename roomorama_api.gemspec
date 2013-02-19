@@ -4,8 +4,8 @@ require File.expand_path('../lib/roomorama_api/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["TM Lee"]
   gem.email         = ["tm89lee@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby wrapper to call Roomorama API V1.0 at https://roomorama.com/api. For a step by step guide on getting started with Roomorama API, refer to https://roomorama.com/api/step_by_step.}
+  gem.summary       = %q{Ruby wrapper to call Roomorama API V1.0}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,8 @@ Gem::Specification.new do |gem|
   gem.name          = "roomorama_api"
   gem.require_paths = ["lib"]
   gem.version       = RoomoramaApi::VERSION
+
+  gem.add_dependency('faraday', '~> 0.8')
+  gem.add_dependency('json')
+
 end
