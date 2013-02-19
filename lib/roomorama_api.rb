@@ -6,6 +6,12 @@ module RoomoramaApi
 
 	class Client
 
+		def initialize(oauth_token=nil)
+			@oauth_token == ''
+			@oauth_token = oauth_token if oauth_token
+		end
+
+
 		BASE_URL = 'https://api.roomorama.com/'
 		API_VERSION = 'v1.0/'
 
@@ -18,36 +24,49 @@ module RoomoramaApi
 		#### Properties
 
 		def properties_find(options={})
-			api_call "rooms.json", to_query_params(options)
+			api_call "rooms.json", options
 		end
 
 		def properties_get_data(room_id, options={})
-			api_call "rooms/" + room_id.to_s + ".json", to_query_params(options)
+			api_call "rooms/" + room_id.to_s + ".json", options
 		end
 
 		def properties_find_similar(room_id, options={})
-			api_call "rooms/" + room_id.to_s + "/similar.json", to_query_params(options)
+			api_call "rooms/" + room_id.to_s + "/similar.json", options
 		end
 
 		def properties_availabilities(room_id, options={})
-			api_call "rooms/" + room_id.to_s + "/availabilities.json", to_query_params(options)
+			api_call "rooms/" + room_id.to_s + "/availabilities.json", options
 		end
 
 		#### Perks
 
 		def perks_list(options={})
-			api_call "perks.json", to_query_params(options)
+			api_call "perks.json", options
 		end
 
 		def perks_get_data(perk_id, options={})
-			api_call "perks/" + perk_id.to_s, to_query_params(options)
+			api_call "perks/" + perk_id.to_s, options
 		end
 
 		#### Users
 
-		def users_get_data(user_id, options={})
-			api_call "users/", to_query_params(options)
+		def users_me(options={})
+			api_call "me.json", options
 		end
+
+		def users_update_profile(options={})
+			api_call "me.json", options, :put
+		end
+
+		def users_get_data(user_id, options={})
+			api_call "users", options
+		end
+
+		def users_register(options={})
+			api_call "users", options, :post
+		end
+
 
 		private
 
@@ -55,8 +74,9 @@ module RoomoramaApi
 			BASE_URL + API_VERSION
 		end
 
-		def api_call(method_name, options)
-			response = connection(method_name, options)
+		def api_call(method_name, options, verb=:get)
+			options["access_token"] = @oauth_token
+			response = connection(method_name, options, verb)
 			parse_response response.body
 		end
 
@@ -68,14 +88,25 @@ module RoomoramaApi
 			end
 		end
 
-		def connection(method_name, options)
+		def connection(method_name, options, verb)
+
 			conn = Faraday.new(:url => api_url) do |faraday|
 				faraday.request  :url_encoded
   				#faraday.response :logger
   				faraday.adapter  Faraday.default_adapter
 			end
-			response = conn.get(method_name + "?" + options)
+
+			if verb == :put
+				response = conn.put(method_name, options)
+			elsif verb == :post
+				response = conn.post(method_name, options)
+			elsif verb == :delete
+				response = conn.delete(method_name)
+			else
+				response = conn.get(method_name + "?" + to_query_params(options))
+			end
 		end
+
 
 		def to_query_params(options)
 			options.collect { |key, value| "#{key}=#{value}" }.join('&')
