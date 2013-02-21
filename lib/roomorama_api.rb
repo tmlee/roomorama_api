@@ -1,4 +1,4 @@
-require_relative "roomorama_api/version"
+require "roomorama_api/version"
 require "faraday"
 require "json"
 

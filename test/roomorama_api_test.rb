@@ -1,5 +1,5 @@
-require_relative 'minitest_helper'
-require_relative '../lib/roomorama_api'
+require 'minitest_helper'
+require 'roomorama_api'
 
 class RoomoramaApiTest < MiniTest::Unit::TestCase
 
@@ -24,8 +24,9 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 	end
 
 	def test_get_data_for_an_empty_property
-		result = @client.properties_get_data 500
-		assert_equal result, {}
+		assert_raises RoomoramaApi::NotFound do
+			result = @client.properties_get_data 500
+		end
 	end
 
 	def test_get_information_about_me_oauth

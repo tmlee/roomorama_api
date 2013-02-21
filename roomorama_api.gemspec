@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["tm89lee@gmail.com"]
   gem.description   = %q{Ruby wrapper to call Roomorama API V1.0 at https://roomorama.com/api. For a step by step guide on getting started with Roomorama API, refer to https://roomorama.com/api/step_by_step.}
   gem.summary       = %q{Ruby wrapper to call Roomorama API V1.0}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/tmlee/roomorama_api"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
