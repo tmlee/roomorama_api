@@ -52,6 +52,9 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	properties_get_data
 	properties_find_similar
 	properties_availabilities
+	favorites_list
+	favorites_create
+	favorites_delete
 	perks_list
 	perks_get_data
 	users_me
