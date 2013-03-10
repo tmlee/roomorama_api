@@ -39,6 +39,21 @@ module RoomoramaApi
 			api_call "rooms/" + room_id.to_s + "/availabilities", options
 		end
 
+
+		#### Favorites
+
+		def favorites_list(options = {})
+			api_call "favorites/", options
+		end
+
+		def favorites_create(options = {})
+			api_call "favorites", options, :post
+		end
+
+		def favorites_delete(id, options = {})
+			api_call "favorites/" + id.to_s, options, :delete
+		end
+
 		#### Perks
 
 		def perks_list(options={})
@@ -75,7 +90,6 @@ module RoomoramaApi
 		end
 
 		def api_call(method_name, options, verb=:get)
-			options["access_token"] = @oauth_token
 			response = connection(method_name, options, verb)
 			parse_response response
 		end
@@ -95,6 +109,7 @@ module RoomoramaApi
 				faraday.request  :url_encoded
   				#faraday.response :logger
   				faraday.adapter  Faraday.default_adapter
+  				faraday.headers['Authorization'] = "Bearer " + @oauth_token
 			end
 
 			if verb == :put
