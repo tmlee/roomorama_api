@@ -1,0 +1,105 @@
+{
+    "result": {
+        "id": 3002,
+        "title": "Sunny & beautiful studio w. exposed brick walls & Scandinavian flair",
+        "type": "apartment",
+        "subtype": "apartment",
+        "url": "https://roomorama.com/short-term-rentals/new-york/east-village-downtown/apartment/3002",
+        "num_rooms": 0,
+        "num_bathrooms": "1",
+        "max_guests": 2,
+        "min_stay": 3,
+        "floor": "5",
+        "num_double_beds": 1,
+        "num_single_beds": 1,
+        "surface": 35,
+        "price": 168,
+        "currency_code": "USD",
+        "currency_display": "US$",
+        "description": "A perfect and more personal alternative to Manhattans expensive hotels and a great opportunity to live and experience somewhere else than Times Square. Not to mention the $$$ you save, by cooking meals in the apt. etc. Ideal for a couple or two friends!<br /><br /> Spacious and sunny studio loft with exposed brick walls. Top floor in beautiful brownstone walk-up. Very quiet! Bathroom with separate shower. Kitchen area with eating area. Hardwood floors. The space has a modern contemporary look, simple and uncluttered. Lots of sun light. Very comfortable double bed. DVD player and cable TV. Wireless internet service!<br /><br /> Quiet tree-lined street. Laundromat right next door, as well as deli&rsquo;s and Wholefoods at the end of the block.<br /><br />Location, location, location. Right in the middle of trendy and fun East Village, downtown Manhattan. A multitude of restaurants, bars, cafe&rsquo;s and night clubs at your doorstep. 5 minute walk from the famous Washington Square Park, Soho, Fifth Avenue &amp; Broadway. Ideal for shopping. Most hot-spots &amp; tourist destinations are within walking distance. Otherwise 3 subway stations are nearby and buses and cabs are right outside the door<br /><br /><br /><br /><br />\r\n<h2>Add-on Services</h2>\r\n<br /><br /><br /><br /><br /><strong>Please be aware that rates are based on 2 people! There's a $35 surcharge per day for additional renters.</strong><br /> <strong>A security deposit will be required once booking has been made. Payable by PayPal or via regular bank wire.</strong><br /><br />",
+        "city": "New York",
+        "country_code": "US",
+        "lat": "40.7252922058",
+        "lng": "-73.9878387451",
+        "amenities": "bed_linen_and_towels, kitchen, wifi, internet, cabletv, tv, airconditioning",
+        "services": {
+            "cleaning": {
+                "available": true,
+                "rate": "50",
+                "required": true
+            },
+            "airport_pickup": {
+                "available": false,
+                "rate": null
+            },
+            "car_rental": {
+                "available": false,
+                "rate": null
+            },
+            "concierge": {
+                "available": false,
+                "rate": null
+            }
+        },
+        "check_in_time": "15:00",
+        "check_out_time": "11:00",
+        "check_in_instructions": "Check-in is available between 4pm - 9pm on the day of arrival. \r\nCheck-out is before 12pm on the day of departure.\r\n\r\nTHERE'S A FEE FOR LATE CHECK-IN.",
+        "cancellation_policy": "If you cancel the booking within 4 weeks of your arrival date, a 25% of total rent will be charged.\r\nIf you cancel the booking within 2 weeks of your arrival date, a 50% of total rent will be charged.\r\nIf you cancel the booking within 1 week of your arrival date, a 100% of total rent will be charged.",
+        "terms_and_conditions": "I do a require a $500 security deposit once you have made a booking, which is refunded after you move out and it has been established that you have left the apt. in the same condition in which you found it. This can be done the safest via Paypal.\r\n",
+        "security_deposit": {
+            "amount": 500,
+            "type": "paypal",
+            "currency_code": "USD"
+        },
+        "conditions": {
+            "smoking": false,
+            "pets": false,
+            "children": false
+        },
+        "host": {
+            "id": 13149,
+            "display": "nycdane",
+            "certified": true,
+            "url": "https://roomorama.com/users/nycdane"
+        },
+        "images": [
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464355/464355_property_page.jpg",
+                "position": 1
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464356/464356_property_page.jpg",
+                "position": 2
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464357/464357_property_page.jpg",
+                "position": 3
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464359/464359_property_page.jpg",
+                "position": 4
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464358/464358_property_page.jpg",
+                "position": 5
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464360/464360_property_page.jpg",
+                "position": 6
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464361/464361_property_page.jpg",
+                "position": 7
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/464363/464363_property_page.jpg",
+                "position": 8
+            },
+            {
+                "image": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/52733/52733_property_page.jpg",
+                "position": 9
+            }
+        ]
+    },
+    "status": 200
+}

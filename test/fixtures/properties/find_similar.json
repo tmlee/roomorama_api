@@ -1,0 +1,119 @@
+{
+    "result": [
+        {
+            "id": 299,
+            "title": "Madison Avenue Apartment for rent on weekends",
+            "type": "apartment",
+            "url": "https://roomorama.com/short-term-rentals/new-york/apartment/299",
+            "num_rooms": 1,
+            "max_guests": 2,
+            "min_stay": 2,
+            "price": 225,
+            "currency_code": "USD",
+            "currency_display": "US$",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/1033/1033_search_result.jpg",
+            "city": "New York",
+            "country_code": "US",
+            "lat": "40.7696990967",
+            "lng": "-73.9672012329",
+            "host": {
+                "id": 1065,
+                "display": "madison",
+                "url": "https://roomorama.com/users/madison"
+            }
+        },
+        {
+            "id": 547,
+            "title": "In Charming Brownstone on Upper West Side",
+            "type": "apartment",
+            "url": "https://roomorama.com/short-term-rentals/new-york/apartment/547",
+            "num_rooms": 1,
+            "max_guests": 2,
+            "min_stay": 2,
+            "price": 216,
+            "currency_code": "USD",
+            "currency_display": "US$",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/3721/3721_search_result.jpg",
+            "city": "New York",
+            "country_code": "US",
+            "lat": "40.7998008728",
+            "lng": "-73.9662017822",
+            "host": {
+                "id": 2392,
+                "display": "alsks",
+                "url": "https://roomorama.com/users/alsks"
+            }
+        },
+        {
+            "id": 10719,
+            "title": "Amazing Fort Greene Brooklyn Location",
+            "type": "room",
+            "url": "https://roomorama.com/short-term-rentals/new-york/room/10719",
+            "max_guests": 2,
+            "min_stay": 3,
+            "price": 150,
+            "currency_code": "USD",
+            "currency_display": "US$",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/122824/122824_search_result.jpg",
+            "city": "New York",
+            "country_code": "US",
+            "lat": "40.6869163513",
+            "lng": "-73.9743423462",
+            "host": {
+                "id": 62198,
+                "display": "saricobb",
+                "url": "https://roomorama.com/users/saricobb"
+            }
+        },
+        {
+            "id": 18778,
+            "title": "DAVID / UPE",
+            "type": "apartment",
+            "subtype": "apartment",
+            "url": "https://roomorama.com/short-term-rentals/new-york/apartment/18778",
+            "num_rooms": 1,
+            "max_guests": 4,
+            "min_stay": 1,
+            "price": 265,
+            "currency_code": "USD",
+            "currency_display": "US$",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/216452/216452_search_result.jpg",
+            "city": "New York",
+            "country_code": "US",
+            "lat": "40.777179718",
+            "lng": "-73.9522323608",
+            "host": {
+                "id": 26128,
+                "display": "sandsmona",
+                "certified": true,
+                "url": "https://roomorama.com/users/sandsmona"
+            }
+        },
+        {
+            "id": 53673,
+            "title": "Central Park East 8263",
+            "type": "apartment",
+            "subtype": "apartment",
+            "url": "https://roomorama.com/short-term-rentals/new-york/apartment/53673",
+            "num_rooms": 2,
+            "max_guests": 6,
+            "min_stay": 2,
+            "price": 250,
+            "currency_code": "USD",
+            "currency_display": "US$",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/588017/588017_search_result.jpg",
+            "city": "New York",
+            "country_code": "US",
+            "lat": "40.763451",
+            "lng": "-73.960036",
+            "host": {
+                "id": 12561,
+                "display": "MetroFlats",
+                "certified": true,
+                "url": "https://roomorama.com/users/MetroFlats"
+            }
+        }
+    ],
+    "count": 5,
+    "status": 200
+}
