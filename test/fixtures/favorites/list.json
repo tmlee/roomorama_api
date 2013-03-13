@@ -1,0 +1,28 @@
+{
+    "result": [
+        {
+            "id": 1170,
+            "title": "[7801] STUNNING WEST VILLAGE",
+            "type": "apartment",
+            "subtype": null,
+            "max_guests": 5,
+            "city": "New York",
+            "lat": "40.7278022766",
+            "lng": "-74.0001068115",
+            "url": "https://roomorama.com/short-term-rentals/new-york/lower-manhattan/apartment/1170",
+            "num_rooms": 2,
+            "min_stay": 2,
+            "price": 247,
+            "currency_code": "USD",
+            "thumbnail": "https://duyhudmhxzxmd.cloudfront.net/photos/rooms/161368/161368_search_result.jpg",
+            "country_code": "US",
+            "host": {
+                "display": "FurnishedRentals",
+                "certified": true,
+                "url": "https://roomorama.com/users/FurnishedRentals"
+            }
+        }
+    ],
+    "count": 1,
+    "status": 200
+}

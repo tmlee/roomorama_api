@@ -49,6 +49,21 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"].first["available"], true
 	end
 
+	#### Favorites
+
+	def test_favorites_list
+		stub_get("https://api.roomorama.com/v1.0/favorites", 'favorites/list.json')
+		result = @client.favorites_list
+		assert_equal result["result"].first["title"], "[7801] STUNNING WEST VILLAGE"
+	end
+
+	def test_favorites_create
+	end
+
+	def test_favorites_delete
+
+	end
+
 	# def test_get_data_for_an_empty_property
 	# 	assert_raises RoomoramaApi::NotFound do
 	# 		result = @client.properties_get_data 500
