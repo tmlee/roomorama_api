@@ -16,7 +16,9 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 	#### Destinations
 
 	def test_destinations_all
-
+		stub_get("https://api.roomorama.com/v1.0/destinations", 'destinations/all.json')
+		result = @client.destinations_all
+		assert_equal result["result"].count, 5288
 	end
 
 	#### Properties
