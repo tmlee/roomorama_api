@@ -43,7 +43,7 @@ module RoomoramaApi
 		#### Favorites
 
 		def favorites_list(options = {})
-			api_call "favorites/", options
+			api_call "favorites", options
 		end
 
 		def favorites_create(options = {})
