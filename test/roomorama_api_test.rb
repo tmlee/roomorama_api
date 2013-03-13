@@ -58,6 +58,9 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 	end
 
 	def test_favorites_create
+		stub_post("https://api.roomorama.com/v1.0/favorites", "favorites/create.json")
+		result = @client.favorites_create room_id: 2291
+		assert_equal result["room_id"], 2291
 	end
 
 	def test_favorites_delete
