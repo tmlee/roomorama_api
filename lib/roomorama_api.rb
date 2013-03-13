@@ -17,8 +17,8 @@ module RoomoramaApi
 
 		### Destinations
 
-		def destinations_all
-			api_call "destinations"
+		def destinations_all(options={})
+			api_call "destinations", options
 		end
 
 		#### Properties
