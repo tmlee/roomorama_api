@@ -32,6 +32,13 @@ def stub_post(url, filename, options={})
   FakeWeb.register_uri(:post, url, opts)
 end
 
+def stub_delete(url, filename, options={})
+  opts = {
+    :body => error_or_standard_body(filename, options),
+  }.merge(options)
+  FakeWeb.register_uri(:delete, url, opts)
+end
+
 
 def error_or_standard_body(filename, options)
   error_options = options.delete(:error)
