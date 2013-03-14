@@ -63,9 +63,21 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["room_id"], 2291
 	end
 
-	def test_favorites_delete
+	#### Perks
 
+	def test_perks_list
+		stub_get("https://api.roomorama.com/v1.0/perks?destination=singapore", "perks/list.json")
+		result = @client.perks_list destination: "singapore"
+		assert_equal result["count"], 25
 	end
+
+	def test_perks_get_data
+		stub_get("https://api.roomorama.com/v1.0/perks/25", "perks/get_data.json")
+		result = @client.perks_get_data 25
+		assert_equal result["result"]["name"], "Mygola Trip Planning"
+	end
+
+	#### 
 
 	# def test_get_data_for_an_empty_property
 	# 	assert_raises RoomoramaApi::NotFound do

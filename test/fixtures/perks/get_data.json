@@ -1,0 +1,25 @@
+{
+    "result": {
+        "id": 25,
+        "name": "Mygola Trip Planning",
+        "description": "Mygola&nbsp;is a travel planning service that assigns you an online guide to take care of all the internet research you would be doing while planning your vacation.\r\nImagine you're traveling to Paris. Post your trip questions on mygola.com and right away hundreds of trained guides are alerted and get to work on your vacation. Like the perfect travel advisor, they will not only find your Roomorama accommodations but will also find the jazz club you should go to that Saturday night. They'll also get you the right maps or that SIM card you need -all within 24 hours. Signing up is free!",
+        "deal": "Save 50% on mygola's fees anytime, every time!",
+        "conditions": "",
+        "instructions": "To redeem, simply enter code MYGOLA5050.",
+        "picture": "https://roomorama.s3.amazonaws.com/photos/perks/25/25_regular.jpg?2012",
+        "created_at": "2011-01-27 22:43:42",
+        "updated_at": "2012-07-02 19:29:36",
+        "categories": [
+            {
+                "id": 7,
+                "title": "Concierge Services"
+            },
+            {
+                "id": 2,
+                "title": "Sightseeing"
+            }
+        ],
+        "": []
+    },
+    "status": 200
+}

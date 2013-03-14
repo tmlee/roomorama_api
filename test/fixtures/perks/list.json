@@ -1,0 +1,453 @@
+{
+    "result": [
+        {
+            "id": 200,
+            "name": "iTwin Connect: Making the Public Internet Private",
+            "description": "iTwin Connect&nbsp;addresses the myriad of challenges faced by today&rsquo;s mobile professionals. First, iTwin Connect ensures private and restriction-free browsing and secondly, it provides remote desktop access, remote file access and&nbsp;access to the home/office network.&nbsp;The iTwin Connect device consists of two identical halves. To install, simply plug the device into a USB port on the home/office PC. Detach one half of the device, which becomes the iTwin Connect &ldquo;key\", and carry it with you. When on the go, plug this key into a laptop and a secure VPN tunnel is instantly formed to the home/office PC.",
+            "deal": "Save 15% on iTwin Connect.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/200/200_regular.jpg?2013",
+            "created_at": "2013-02-13 15:12:49",
+            "updated_at": "2013-02-28 22:18:30",
+            "categories": [
+                {
+                    "id": 9,
+                    "title": "Business Services"
+                }
+            ]
+        },
+        {
+            "id": 188,
+            "name": "Todd Beltz Photography",
+            "description": "Todd Beltz is an experienced photographer that splits his time between New York and Singapore. Todd's interior photography showcases the &nbsp;decor, warmth and finishing touches of a home, making properties come to life through his photographs. If you're looking to highlight your space with impeccable photography, contact Todd Beltz Photography!&nbsp;",
+            "deal": "Get the Roomorama photo package for USD$60. This includes 15-20 high-quality images, delivered digitally.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/188/188_regular.png?2012",
+            "created_at": "2012-09-28 14:17:55",
+            "updated_at": "2012-10-01 18:14:16",
+            "categories": [
+                {
+                    "id": 1,
+                    "title": "Photography Services"
+                }
+            ]
+        },
+        {
+            "id": 160,
+            "name": "Meshu",
+            "description": "Meshu helps turn your locations into beautiful jewelry. Create custom necklaces, earrings, and cufflinks by entering desinations on a map or by connecting with your Foursquare account. Create a pendant from your weeklong vacation to Costa Rica, or earrings that chronicle your trip across Europe. Check out their site and see what your travels look like as jewelry!",
+            "deal": "Save 15% on any order! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/160/160_regular.png?2012",
+            "created_at": "2012-06-04 14:38:38",
+            "updated_at": "2012-07-02 19:25:33",
+            "categories": [
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 158,
+            "name": "Vayable Travel Experiences",
+            "description": "Vayable is a marketplace to find things to do on vacation, such as tours and activities offered by trusted, local experts. Why follow the crowds, visit tourist traps, and see the same sights as everyone else? A Vayable guide can show you the hidden secrets that only locals know. So whether you'd like to take a sailboat tour, hike to a secluded waterfall, or explore the mysteries of Egypt, Vayable can help you plan a trip like no other.&nbsp;",
+            "deal": "Save $10 on your first experience! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/158/158_regular.jpeg?2012",
+            "created_at": "2012-05-30 20:16:38",
+            "updated_at": "2012-07-02 20:44:23",
+            "categories": [
+                {
+                    "id": 2,
+                    "title": "Sightseeing"
+                }
+            ]
+        },
+        {
+            "id": 145,
+            "name": "SpaFinder",
+            "description": "Roomorama knows it's important to stay healthy (and pamper yourself!) while on vacation. That's why we love SpaFinder.&nbsp;SpaFinder lets you find and buy gift certificates to spas, salons, gyms and wellness centers wherever you are. Simply purchase a gift certificate online, and use it at any of their 7,000 partnering locations worldwide, including&nbsp;places like Bliss Spas and Equinox Gyms!&nbsp;",
+            "deal": "Save 10% on all purchases! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/145/145_regular.png?2012",
+            "created_at": "2012-04-25 15:48:35",
+            "updated_at": "2012-07-02 20:07:15",
+            "categories": [
+                {
+                    "id": 12,
+                    "title": "Lifestyle & Fitness"
+                }
+            ]
+        },
+        {
+            "id": 144,
+            "name": "TaskRabbit: Your To-Dos, Done! ",
+            "description": "\r\nTaskRabbit is a website and mobile app that's all about making your life easier. TaskRabbit makes it a breeze for busy people to outsource small jobs and&nbsp;errands&nbsp;to friendly people right in their own neighborhoods. Background-checked TaskRabbits can help with just about anything &mdash; like&nbsp;picking up your groceries,&nbsp;cleaning your house,&nbsp;facilitating key exchange with your&nbsp;Roomorama&nbsp;guests,&nbsp;online research for an upcoming trip, and anything else you may need done.&nbsp;\r\n\r\n\r\nAvailable in:\r\nYou can hire TaskRabbits for in-person errands in&nbsp;Austin,&nbsp;Boston,&nbsp;Chicago,&nbsp;LA &amp; Orange County,&nbsp;New York City,&nbsp;Portland,&nbsp;San Antonio,&nbsp;San Francisco, and&nbsp;Seattle, and for virtual Tasks from anywhere else.&nbsp;",
+            "deal": "Save $15 on your very first completed task! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/144/144_regular.jpeg?2012",
+            "created_at": "2012-04-23 17:04:55",
+            "updated_at": "2012-07-02 20:08:38",
+            "categories": [
+                {
+                    "id": 1,
+                    "title": "Photography Services"
+                },
+                {
+                    "id": 2,
+                    "title": "Sightseeing"
+                },
+                {
+                    "id": 6,
+                    "title": "Transportation"
+                },
+                {
+                    "id": 7,
+                    "title": "Concierge Services"
+                },
+                {
+                    "id": 9,
+                    "title": "Business Services"
+                },
+                {
+                    "id": 10,
+                    "title": "Home & Decorating Services"
+                }
+            ]
+        },
+        {
+            "id": 133,
+            "name": "Fancy Hands Personal Assistants",
+            "description": "Fancy Hands is a team of personal assistants ready to work for you right now. From research, to appointments, to calling the wonderful kind souls at Ikea support. You should focus on what's important, let Fancy Hands focus on the rest.",
+            "deal": "Save 15% on any plan! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/133/133_regular.png?2012",
+            "created_at": "2012-03-13 00:46:16",
+            "updated_at": "2012-07-02 18:09:58",
+            "categories": [
+                {
+                    "id": 9,
+                    "title": "Business Services"
+                },
+                {
+                    "id": 7,
+                    "title": "Concierge Services"
+                }
+            ]
+        },
+        {
+            "id": 127,
+            "name": "Brincatti Travel-Sized Cases",
+            "description": "Brincatti's refillable travel kits are TSA approved and feature a wide mouth opening to help easily transfer liquids into the bottle. Drop a pretty penny on that hairstyle? Don't wreck it with \"I'll buy it when I get there\" shampoo. You&rsquo;ve got your dream team of brands &ndash;take them with you when you travel!\r\nThe Brincatti travel kit includes four 3 oz. wide mouth, easy fill bottles (three with secure flip tops), one sprayer, and a full set of adhesive labels -all in a one quart closable bag!&nbsp;\r\n&nbsp;",
+            "deal": "Buy one travel kit and get the second free! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/127/127_regular.jpeg?2012",
+            "created_at": "2012-02-28 20:22:42",
+            "updated_at": "2012-07-02 16:26:18",
+            "categories": [
+                {
+                    "id": 4,
+                    "title": "Travel Gear and Accessories "
+                },
+                {
+                    "id": 8,
+                    "title": "Travel Necessities "
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 125,
+            "name": "Cabeau Travel Gear",
+            "description": "Cabeau Travel is the ultimate destination for innovative travel pillows, accessories, and on-the-go gear. Cabeau is an industry leader in its category, and prides itself both on the quality and amazing functionality of its products, which include its Evolution Pillows and award winning BlanKid Buddy. Make sure to check out all of their awesome travel products before your next vacation!&nbsp;",
+            "deal": "Save 20% on your order! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/125/125_regular.jpeg?2012",
+            "created_at": "2012-02-24 21:14:09",
+            "updated_at": "2012-07-02 16:41:54",
+            "categories": [
+                {
+                    "id": 4,
+                    "title": "Travel Gear and Accessories "
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "name": "BAGGU Bags",
+            "description": "BAGGU makes simple, high quality bags in many different colors and designs. The bags are durable, light and great for traveling. BAGGU Daypacks can easily be folded into their front zipper pockets and be put almost anywhere. Toss the daypack into your carry-on or suitcase and have the option to buy as many souvenirs as you want! BAGGU Dayback is not only good for traveling but it also comes in handy at grocery stores and trips to the mall.&nbsp;",
+            "deal": "Save 15% on any Daypack!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/113/113_regular.jpg?2012",
+            "created_at": "2012-01-18 16:58:45",
+            "updated_at": "2012-08-20 14:56:31",
+            "categories": [
+                {
+                    "id": 4,
+                    "title": "Travel Gear and Accessories "
+                },
+                {
+                    "id": 8,
+                    "title": "Travel Necessities "
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "name": "BucketFeet Shoes",
+            "description": "BucketFeet are a traveler&rsquo;s best friend. These lightweight comfortable shoes are perfect for exploring a new city on foot! They have a slip-on design making them not only fashionable but also airport-friendly too! They feature original and colorful patterns designed by talented artists from around the world. Not only is BucketFeet fashionable but it makes a huge social impact by donating a portion of their sales to support underprivileged kids through programs in the arts and sports.&nbsp;",
+            "deal": "Save 20% on any pair! ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/107/107_regular.jpeg?2012",
+            "created_at": "2012-01-05 21:34:29",
+            "updated_at": "2012-07-30 14:53:27",
+            "categories": [
+                {
+                    "id": 4,
+                    "title": "Travel Gear and Accessories "
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "name": "Beer Market Restaurant and Bar",
+            "description": "Beer Market is one of the most exciting bars and restaurants in Singapore, operating on a&nbsp;stock exchange model&nbsp;with a twist. Expect to closely follow the \"Beer Market Exchange\", where the prices are updated every half hour and displayed on screens all over the bar. This means the price of your next beer is influenced by consumer demand. So there you go -a whole new interactive excuse to indulge!\r\nBeer Market | 177A River Valley Rd. Novotel Clarke Quay Singapore, Singapore 179021&nbsp;\r\n",
+            "deal": "Save 10% on drinks, all night long, daily!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/89/89_regular.jpg?2012",
+            "created_at": "2011-11-04 05:19:43",
+            "updated_at": "2012-07-12 14:29:52",
+            "categories": [
+                {
+                    "id": 3,
+                    "title": "Entertainment & Nightlife"
+                },
+                {
+                    "id": 5,
+                    "title": "Food & Dining Out"
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "name": "Lippolis Italian Gelato",
+            "description": "Lippolis is your one-stop shop for premium gelato! You can choose from a wide range of fruity, creamy, italian, light line flavors or specially crafted in-house creations. Lippolis only uses natural handmade quality ingredients for the premium gelato. &nbsp;All Italian and simply the best!\r\nLippolis Italian Gelato | 30 Victoria St. #01-06 Singapore, Singapore 187996",
+            "deal": "Buy one gelato, get one free!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/73/73_regular.png?2012",
+            "created_at": "2011-10-14 02:44:00",
+            "updated_at": "2012-07-02 19:24:10",
+            "categories": [
+                {
+                    "id": 5,
+                    "title": "Food & Dining Out"
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "name": "MOO Printing",
+            "description": "Looking to promote your property, send out invites for your house-warming party or attending a conference or an event? One of the best ways to make that great impression is to customize and personalize business cards, postcards and other print materials with your very own choice of designs, logos or artwork.\r\nMOO.com offers all that and more! MOO is&nbsp;an award winning digital printer who make MiniCards, Business&nbsp;Cards, Postcards and Stickers.&nbsp;\r\n&nbsp;",
+            "deal": "Save 15% on one print job!\r\n",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/72/72_regular.png?2012",
+            "created_at": "2011-10-12 03:36:51",
+            "updated_at": "2012-07-02 21:27:26",
+            "categories": [
+                {
+                    "id": 9,
+                    "title": "Business Services"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Wave House Sentosa",
+            "description": "Experience the California beach lifestyle with high-adrenaline waves! Wave House has endless&nbsp;sheet wave attractions that&nbsp;combine board sports such as surfing, snowboarding, skateboarding and even wakeboarding. An oasis of good food and drinks, Wave House Sentosa offers the perfect blend of wave riding and entertainment that's fun for all ages!\r\nWave House Sentosa | 36 Siloso Beach Walk Singapore, Singapore 099007",
+            "deal": "Save 50% on your first time!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/70/70_regular.png?2012",
+            "created_at": "2011-10-10 05:42:17",
+            "updated_at": "2012-07-12 14:39:11",
+            "categories": [
+                {
+                    "id": 3,
+                    "title": "Entertainment & Nightlife"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "name": "3floz.com Travel Friendly Toiletries",
+            "description": "3floz.com&nbsp;is an online boutique featuring luxury beauty, grooming and personal care items exclusively in travel size. Enjoy&nbsp;same-day delivery within Manhattan and worldwide&nbsp;shipping (including direct to hotels). For last-minute packers, they offer the convenience of overnight shipping for the price of ground shipping when you send in your itinerary showing you&rsquo;re leaving within 72 hours.",
+            "deal": "Save 15% when shopping online at 3floz.com",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/63/63_regular.png?2012",
+            "created_at": "2011-09-28 02:11:09",
+            "updated_at": "2012-07-02 15:46:27",
+            "categories": [
+                {
+                    "id": 4,
+                    "title": "Travel Gear and Accessories "
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                },
+                {
+                    "id": 8,
+                    "title": "Travel Necessities "
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "name": "iVenture Tour and Adventure Passes",
+            "description": "With an iVenture Card package you can access the best tourist attractions and travel experiences for exciting destinations around the world. Every iVenture Card is a 'smart card' - like a credit card with a computer chip inside which allows you completely cash free entry or access to your choice of a large range of top experiences in your chosen destination.&nbsp;\r\n",
+            "deal": "Save 10% on iVenture cards in select cities!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/56/56_regular.jpg?2012",
+            "created_at": "2011-09-09 07:55:37",
+            "updated_at": "2012-07-02 19:18:08",
+            "categories": [
+                {
+                    "id": 2,
+                    "title": "Sightseeing"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Green Path Transfers",
+            "description": "Green Path Transfers is a global provider of airport, inter-city and inter-island transfers with two critical points of difference from other transfer providers: First, they are committed to being a truly global provider, operating in parts of the world where competitors do not. Secondly, their goal in every destination is to only use low carbon emission vehicles to minimise their carbon footprint. Where they cannot reduce the footprint to zero they will offset 100% of the emissions generated and work behind the scenes to continue to reduce the carbon footprint. Finally, Green Path Transfers is a member of the WHL Group, the world's largest local travel company.&nbsp; The WHL Group believes in improving the travel experience and the ethical standards of tourism from the bottom up and for everyone involved.",
+            "deal": "Save 20% on all transfers.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/39/39_regular.jpg?2012",
+            "created_at": "2011-08-11 20:07:09",
+            "updated_at": "2012-07-02 18:27:34",
+            "categories": [
+                {
+                    "id": 6,
+                    "title": "Transportation"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "ScoreBig Theater, Sporting and Concert Tickets",
+            "description": "ScoreBig gets you great deals on live event tickets at up to 70% off the regular rate. ScoreBig has made it so that you, the user, get to decide how much you want to spend for your seats at the various theater, sporting and concert events happening around town.&nbsp; Simply submit a price, and once it's approved, payment goes through and your tickets are sent along at no additional cost.&nbsp; ScoreBig assures there won't ever be sneaky fees or shipping charges.&nbsp; That leaves you more time to enjoy the event you choose!&nbsp;\r\nScoreBig has thousands of events listed and their inventory is constantly growing. Be sure to check the site often for new additions.&nbsp; All of ScoreBig's tickets are below retail price and 100% guaranteed.",
+            "deal": "Save up to 70% on sport, theater or concert tickets!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/27/27_regular.jpg?2012",
+            "created_at": "2011-05-10 15:57:21",
+            "updated_at": "2012-09-13 17:19:28",
+            "categories": [
+                {
+                    "id": 3,
+                    "title": "Entertainment & Nightlife"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Mygola Trip Planning",
+            "description": "Mygola&nbsp;is a travel planning service that assigns you an online guide to take care of all the internet research you would be doing while planning your vacation.\r\nImagine you're traveling to Paris. Post your trip questions on mygola.com and right away hundreds of trained guides are alerted and get to work on your vacation. Like the perfect travel advisor, they will not only find your Roomorama accommodations but will also find the jazz club you should go to that Saturday night. They'll also get you the right maps or that SIM card you need -all within 24 hours. Signing up is free!",
+            "deal": "Save 50% on mygola's fees anytime, every time!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/25/25_regular.jpg?2012",
+            "created_at": "2011-01-27 22:43:42",
+            "updated_at": "2012-07-02 19:29:36",
+            "categories": [
+                {
+                    "id": 7,
+                    "title": "Concierge Services"
+                },
+                {
+                    "id": 2,
+                    "title": "Sightseeing"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Fracture Pictures and Frames",
+            "description": "A fracture is a one-piece picture and frame made from printed glass that mounts directly to your wall quickly and easily. All you have to do is upload your photo, cutomize it, and order it. Fracture's simplicity of design and high-quality product are quickly making Fracture the new way to frame.\r\n&nbsp;",
+            "deal": "Save 25% on your entire order, every time.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/19/19_regular.jpg?2012",
+            "created_at": "2010-11-15 18:03:52",
+            "updated_at": "2012-07-02 18:20:37",
+            "categories": [
+                {
+                    "id": 10,
+                    "title": "Home & Decorating Services"
+                },
+                {
+                    "id": 11,
+                    "title": "Shopping"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Remote Stylist Interior Design",
+            "description": "Remote Stylist is the quick and affordable online platform for interior design. Their dedicated team has come up with 30 options to design your space, so from smaller-scale design elements to complete room overhaul, Remote Stylist has got you covered.&nbsp; ",
+            "deal": "Save 30% on any room consultation. ",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/15/15_regular.jpg?2012",
+            "created_at": "2010-11-01 15:59:18",
+            "updated_at": "2012-07-02 19:36:05",
+            "categories": [
+                {
+                    "id": 10,
+                    "title": "Home & Decorating Services"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Any Airport Car Hire",
+            "description": "With coverage in Europe, America, Asia and the Middle East, Any Airport Care Hire's team of trained advisors are available to give you travel advice and make your journey as convenient as possible.&nbsp; Any Airport Care Hire's serves some of the world's foremost airports, including London Heathrow, Paris Charles de Gaulle, and Los Angeles LAX.",
+            "deal": "Save 5% on already discounted bookings!",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/11/11_regular.jpg?2012",
+            "created_at": "2010-10-21 17:38:19",
+            "updated_at": "2012-07-02 15:54:37",
+            "categories": [
+                {
+                    "id": 6,
+                    "title": "Transportation"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Shambhalla Institute Home Design",
+            "description": "The Shambhalla Institute is known for its unique integration of design psychology, sustainable interior design, permaculture, and eastern and shamanic arts.&nbsp;&nbsp;The Shambhalla Institute&rsquo;s goal is to enhance the health, beauty and productivity within your space.&nbsp;",
+            "deal": "Save 15% on a Shambhalla Institute online signature consultation in either feng shui or space revitalization.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/6/6_regular.jpg?2012",
+            "created_at": "2010-09-14 03:06:34",
+            "updated_at": "2012-07-02 19:59:13",
+            "categories": [
+                {
+                    "id": 10,
+                    "title": "Home & Decorating Services"
+                },
+                {
+                    "id": 12,
+                    "title": "Lifestyle & Fitness"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "LuggageFree Luggage Shipping Service",
+            "description": "Luggage Free is a specialty service offering you the ability to ship luggage ahead of time to any destination worldwide.&nbsp; Avoid the inconvenience of carrying, checking and claiming bags -even going through customs- with Luggage Free.",
+            "deal": "Save 10% on any luggage shipping service, every time.",
+            "picture": "https://roomorama.s3.amazonaws.com/photos/perks/3/3_regular.jpg?2012",
+            "created_at": "2010-06-21 18:09:53",
+            "updated_at": "2012-07-02 19:24:07",
+            "categories": [
+                {
+                    "id": 8,
+                    "title": "Travel Necessities "
+                }
+            ]
+        }
+    ],
+    "count": 25,
+    "status": 200
+}
