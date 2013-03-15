@@ -1,0 +1,13 @@
+{
+    "result": {
+        "id": 1900,
+        "login": "ac07274",
+        "city": null,
+        "country": "US",
+        "description": "Live in NYC and always have friends in town...",
+        "url": "https://roomorama.com/users/ac07274",
+        "created_at": "2008-10-20 20:25:42",
+        "updated_at": "2013-03-09 07:34:45"
+    },
+    "status": 200
+}

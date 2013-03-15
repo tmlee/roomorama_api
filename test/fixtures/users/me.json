@@ -1,0 +1,29 @@
+{
+    "result": {
+        "id": 1419,
+        "login": "test",
+        "email": "test@example.com",
+        "first_name": "Test",
+        "last_name": "Tester",
+        "phone_number": "",
+        "city": "",
+        "country": "",
+        "email2": "",
+        "description": "",
+        "date_of_birth": null,
+        "locale": "en",
+        "time_zone": "UTC",
+        "shoutouts_notifications_frequency": "instant",
+        "wants_unresponded_inquiries_notification": true,
+        "wants_daily_guest_summary_notification": true,
+        "gender": "",
+        "url": "https://api.roomorama.com/users/test",
+        "role": "neither",
+        "payment_country": null,
+        "wants_mailings": false,
+        "created_at": "2013-02-18 11:51:09",
+        "updated_at": "2013-03-15 17:51:21",
+        "payment_method": null
+    },
+    "status": 200
+}
