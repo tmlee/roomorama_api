@@ -77,7 +77,31 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"]["name"], "Mygola Trip Planning"
 	end
 
-	#### 
+	#### Users
+
+	def test_users_me
+		stub_get("https://api.roomorama.com/v1.0/me", "users/me.json")
+		result = @client.users_me
+		assert_equal result["result"]["id"], 1419
+	end
+
+	def test_users_update_profile
+		stub_put("https://api.roomorama.com/v1.0/me", "users/update_profile.json")
+		result = @client.users_update_profile
+		assert_equal result["result"]["id"], 1419
+	end
+
+	def test_users_get_data
+		stub_get("https://api.roomorama.com/v1.0/users/1900", "users/get_data.json")
+		result = @client.users_get_data 1900
+		assert_equal result["result"]["id"], 1900
+	end
+
+	def test_users_register
+		stub_post("https://api.roomorama.com/v1.0/users", "users/register.json")
+		result = @client.users_register login: "test123", password: "testapi", email: "test@example.com", first_name: "Skrillex", last_name: "Avicii"
+		assert_equal result["result"]["login"], "test123"
+	end
 
 	# def test_get_data_for_an_empty_property
 	# 	assert_raises RoomoramaApi::NotFound do
