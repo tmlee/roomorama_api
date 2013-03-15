@@ -75,7 +75,7 @@ module RoomoramaApi
 		end
 
 		def users_get_data(user_id, options={})
-			api_call "users", options
+			api_call "users/" + user_id.to_s, options
 		end
 
 		def users_register(options={})
