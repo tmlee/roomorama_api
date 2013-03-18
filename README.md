@@ -1,8 +1,10 @@
 # RoomoramaApi
 
-Ruby wrapper to call Roomorama API V1.0 at https://roomorama.com/api.
+RoomoramaApi is a Ruby gem that wraps the Roomorama API V1.0 documented at https://roomorama.com/api.
 
 For a step by step guide on getting started with Roomorama API, refer to https://roomorama.com/api/step_by_step.
+
+This gem does not handle OAuth authentication or token generation. You may want to use https://github.com/intridea/omniauth and the Roomorama OAuth strategy at https://github.com/roomorama/omniauth-roomorama
 
 ## Installation
 
