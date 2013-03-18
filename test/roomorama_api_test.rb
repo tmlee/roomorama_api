@@ -103,6 +103,14 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"]["login"], "test123"
 	end
 
+	#### Hosts/Properties
+
+	def test_hosts_properties_list
+		stub_get("https://api.roomorama.com/v1.0/host/rooms", "hosts/properties/list.json")
+		result = @client.hosts_properties_list
+		assert_equal result["result"][0]["id"], 9999
+	end
+
 	# def test_get_data_for_an_empty_property
 	# 	assert_raises RoomoramaApi::NotFound do
 	# 		result = @client.properties_get_data 500

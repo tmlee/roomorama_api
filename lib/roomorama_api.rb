@@ -82,6 +82,12 @@ module RoomoramaApi
 			api_call "users", options, :post
 		end
 
+		#### Hosts/Properties
+
+		def hosts_properties_list(options={})
+			api_call "host/rooms", options
+		end
+
 
 		private
 
