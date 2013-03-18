@@ -1,0 +1,81 @@
+{
+    "result": {
+            "id": 9999,
+            "type": "room",
+            "internal_id": "",
+            "subtype": null,
+            "title": "Amazing Apartment for Rent",
+            "postal_code": "89000",
+            "city": "New York City",
+            "neighborhood": "",
+            "lat": "-31.8928226",
+            "lng": "115.8391382",
+            "description": "<span>This is an apartment for everyone</span>",
+            "number_of_double_beds": null,
+            "number_of_single_beds": null,
+            "number_of_sofa_beds": null,
+            "surface": null,
+            "surface_unit": "metric",
+            "amenities": [],
+            "max_guests": 2,
+            "minimum_stay": 1,
+            "check_in_instructions": null,
+            "address": "42th Street",
+            "apartment_number": "",
+            "number_of_bedrooms": null,
+            "number_of_bathrooms": null,
+            "floor": null,
+            "smoking_allowed": false,
+            "pets_allowed": false,
+            "children_welcome": false,
+            "check_in_time": null,
+            "check_out_time": null,
+            "currency_code": "USD",
+            "nightly_rate": 131,
+            "weekly_rate": 917,
+            "monthly_rate": 3930,
+            "security_deposit": {
+                "amount": null,
+                "type": "cash",
+                "currency_code": "USD"
+            },
+            "tax_rate": null,
+            "extra_charges": null,
+            "rate_base_max_guests": null,
+            "extra_guest_surcharge": null,
+            "default_to_available": true,
+            "cancellation_policy": null,
+            "services": {
+                "cleaning": {
+                    "available": false,
+                    "rate": null,
+                    "required": false
+                },
+                "airport_pickup": {
+                    "available": false,
+                    "rate": null
+                },
+                "car_rental": {
+                    "available": false,
+                    "rate": null
+                },
+                "concierge": {
+                    "available": false,
+                    "rate": null
+                }
+            },
+            "disabled": false,
+            "in_search_results": false,
+            "thumbnail": null,
+            "created_at": "2013-03-18 15:28:19",
+            "updated_at": "2013-03-18 15:28:19",
+            "destination": {
+                "id": 1291,
+                "name": "Perth",
+                "long_name": "New York City, New York",
+                "url_name": "new_york",
+                "url_path": "new-york/new-york-city"
+            }
+        },
+    "status": 200
+}
