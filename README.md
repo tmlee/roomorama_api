@@ -63,3 +63,6 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	users_update_profile
 	users_get_data
 	users_register
+	hosts_properties_list
+	hosts_properties_show
+	
