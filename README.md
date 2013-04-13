@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tmlee/roomorama_api.png)](https://travis-ci.org/tmlee/roomorama_api)
+
 # RoomoramaApi
 
 RoomoramaApi is a Ruby gem that wraps the Roomorama API V1.0 documented at https://roomorama.com/api.
