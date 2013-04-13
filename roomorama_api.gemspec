@@ -18,5 +18,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency('faraday', '~> 0.8')
   gem.add_dependency('json', '~> 1.7.7')
   gem.add_development_dependency('fakeweb', "~> 1.3.0")
+  gem.add_development_dependency('rake')
 
 end
