@@ -110,6 +110,13 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"]["login"], "test123"
 	end
 
+	def test_users_reviews
+		stub_get("https://api.roomorama.com/v1.0/users/291/reviews", "users/reviews.json")
+		result = @client.users_reviews 291
+		assert_equal result["result"][0]["host_to_guest"], false
+		assert_equal result["result"][0]["host"]["id"], 291
+	end
+
 	#### Hosts/Properties
 
 	def test_hosts_properties_list
