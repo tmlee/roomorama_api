@@ -1,0 +1,989 @@
+{
+    "result": [
+        {
+            "id": 464,
+            "rating": 1,
+            "comment": "The place was great. The apartment was roomy and East Harlem was lovely. ",
+            "host_to_guest": false,
+            "posted_at": "Apr 03 2009 10:02PM",
+            "user": {
+                "id": 2965,
+                "display": "jodiebyron",
+                "url": "https://roomorama.com/users/jodiebyron",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 516,
+            "rating": 1,
+            "comment": "East Harlem is great. The apartment is large, perfect for a couple, two minutes from subway #6, beautiful, and would be cozy, but it just needs some *deep*, general cleaning. Linen needs renewal. Furniture and cupboards need either cleaning or renewal. High potential however :) One thumb up, the other one down.",
+            "host_to_guest": false,
+            "posted_at": "May 21 2009 07:40PM",
+            "user": {
+                "id": 886,
+                "display": "qss",
+                "url": "https://roomorama.com/users/qss",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 556,
+            "rating": 1,
+            "comment": "The apartment (1R) was very spacious and quiet with two comfortable beds.  The neighborhood felt safe when returning late at night.  The subway was convenient to get to midtown and the 116 crosstown bus also made it easy to get to the west side.  The only draw back is that 116th Street is far enough up town that once I left in the morning I didn't return until I was ready to go to bed .",
+            "host_to_guest": false,
+            "posted_at": "Jun 24 2009 05:36AM",
+            "user": {
+                "id": 3563,
+                "display": "smerlo",
+                "url": "https://roomorama.com/users/smerlo",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 2522,
+            "rating": 1,
+            "comment": "",
+            "host_to_guest": false,
+            "posted_at": "Sep 12 2010 02:52AM",
+            "user": {
+                "id": 44311,
+                "display": "mikiyu",
+                "url": "https://roomorama.com/users/mikiyu",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        },
+        {
+            "id": 3366,
+            "rating": 1,
+            "comment": "The studio was OK, it's bigger than apppear in the photos, Harlem 116 st, it's a comfort place, near the 6 line station and some markets and restaurants near the apartment.The only thing to improve are the sheets on the beds that need to be renewed. The apartment have wifi, and the host give us all the facilities to make all that we want, keep the lugagge the last day, etc....",
+            "host_to_guest": false,
+            "posted_at": "Nov 16 2010 08:52AM",
+            "user": {
+                "id": 45006,
+                "display": "Qlometa",
+                "url": "https://roomorama.com/users/Qlometa",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 5902,
+                "title": "Studio 3F"
+            }
+        },
+        {
+            "id": 3564,
+            "rating": 1,
+            "comment": "The apartment is a bit little, but very functional. I mean we used it just to sleep at night and have a shower! the position is pretty good, very closed to the subway station (6 116th). A little noisy in the night but where is quite in NY?? The wi-fi connection works very good!\r\nMy feedback can't be negative, I invite everyone who needs a low cost apartment for a week, 10 days and who stays outside in Ny all day.",
+            "host_to_guest": false,
+            "posted_at": "Dec 08 2010 10:40AM",
+            "user": {
+                "id": 47919,
+                "display": "ales13",
+                "url": "https://roomorama.com/users/ales13",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 3832,
+            "rating": 1,
+            "comment": "Aram is a great host and his places very comfortable! We could even easily add an extra night when our flight got cancelled due to a snow storm.\r\nThe location is close to a subway station with trains leaving for downtown every couple of minutes. All in all, we had a great time in New York and Aram's place definitely makes a big part of that! Thanks!",
+            "host_to_guest": false,
+            "posted_at": "Jan 04 2011 07:39PM",
+            "user": {
+                "id": 53751,
+                "display": "mikenikles",
+                "url": "https://roomorama.com/users/mikenikles",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 5475,
+            "rating": 1,
+            "comment": "Aram was super nice! Great deal, you're near the 6 subway and can get to pretty much wherever you'd like. Plenty of Beds, and a costco, and Target are only a few blocks away to stock up. Thanks again!",
+            "host_to_guest": false,
+            "posted_at": "Jun 07 2011 07:23PM",
+            "user": {
+                "id": 60897,
+                "display": "mustangpunx",
+                "url": "https://roomorama.com/users/mustangpunx",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 5627,
+            "rating": 1,
+            "comment": "Everything was perfect and the host really helpful. The appartment was really clean.",
+            "host_to_guest": false,
+            "posted_at": "Jun 15 2011 10:21PM",
+            "user": {
+                "id": 61820,
+                "display": "cisabelle",
+                "url": "https://roomorama.com/users/cisabelle",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        },
+        {
+            "id": 5968,
+            "rating": 1,
+            "comment": "Aram's studio was great, comfortable and really close to the subway. Aram was also very welcoming with us. Thank you.",
+            "host_to_guest": false,
+            "posted_at": "Jul 04 2011 04:36PM",
+            "user": {
+                "id": 80566,
+                "display": "Isabellefortune",
+                "url": "https://roomorama.com/users/Isabellefortune",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/80566/80566_thumbnail-.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 6089,
+            "rating": 1,
+            "comment": "Nice big studio, location was perfect for us. It is in East Harlem so a bit outside the tourist area but easy to reach by metro. One evening we walked back from 84th street and felt perfectly safe. ",
+            "host_to_guest": false,
+            "posted_at": "Jul 12 2011 09:34PM",
+            "user": {
+                "id": 78040,
+                "display": "Nienke",
+                "url": "https://roomorama.com/users/Nienke",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 6156,
+            "rating": 1,
+            "comment": "Aram was really convenient and friendly, and always available if we needed something. The room was clean, and had everything you need to have. I recommend this studio to anyone who is looking for a cheap place without having problems.  ",
+            "host_to_guest": false,
+            "posted_at": "Jul 17 2011 09:59PM",
+            "user": {
+                "id": 88329,
+                "display": "maude_lefebvre",
+                "url": "https://roomorama.com/users/maude_lefebvre",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/88329/88329_thumbnail-.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 6240,
+            "rating": 1,
+            "comment": "Aram worked with me when I had sent out a budget request for a room and was friendly and accommodating.  The apartment was clean and had everything we could possibly need including being close to the 6 line on the metro. I would happily stay there again.",
+            "host_to_guest": false,
+            "posted_at": "Jul 22 2011 03:51PM",
+            "user": {
+                "id": 82119,
+                "display": "tkone21",
+                "url": "https://roomorama.com/users/tkone21",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/82119/82119_thumbnail-.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 7075,
+            "rating": 1,
+            "comment": "Host was great.  Would stay again.\r\n\r\n",
+            "host_to_guest": false,
+            "posted_at": "Sep 12 2011 12:47PM",
+            "user": {
+                "id": 111161,
+                "display": "naughton",
+                "url": "https://roomorama.com/users/naughton",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 1222,
+                "title": "Manhattan Studio4F with kitchen"
+            }
+        },
+        {
+            "id": 7467,
+            "rating": 1,
+            "comment": "This apartment was perfect for our weekend vacation. Very spacious and clean. Only two blocks from the subway that takes you downtown. Interesting, diverse neighborhood. I never felt unsafe. Aram is very welcoming and accomodating.",
+            "host_to_guest": false,
+            "posted_at": "Sep 26 2011 04:35PM",
+            "user": {
+                "id": 114832,
+                "display": "beknoto",
+                "url": "https://roomorama.com/users/beknoto",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 7615,
+            "rating": 1,
+            "comment": "It was great, we had a wonderful time in New York and felt save in the Neighbourhood. Thank you Aram!",
+            "host_to_guest": false,
+            "posted_at": "Sep 30 2011 03:49PM",
+            "user": {
+                "id": 107752,
+                "display": "Mariekje",
+                "url": "https://roomorama.com/users/Mariekje",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 8098,
+            "rating": 1,
+            "comment": "We had a great stay at this property.  The place was very clean and had everything that was needed.  The information he left for us regarding subway, supermarkets etc was invaluable.  Thanks Aram for making our trip to New York really comfortable.",
+            "host_to_guest": false,
+            "posted_at": "Oct 21 2011 06:44AM",
+            "user": {
+                "id": 101882,
+                "display": "candacepage",
+                "url": "https://roomorama.com/users/candacepage",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        },
+        {
+            "id": 8227,
+            "rating": 1,
+            "comment": "M. Aram is a very nice person! :) The appartment was clean and organized. It's near to the metro, nice place, confortable, luminous and quiet. Everything was wonderful! Thank you for this 3 great nights spent in NY! ",
+            "host_to_guest": false,
+            "posted_at": "Oct 26 2011 03:21PM",
+            "user": {
+                "id": 119875,
+                "display": "danizitz",
+                "url": "https://roomorama.com/users/danizitz",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/119875/119875_thumbnail-28bc1fc682504e7c53aa6fbac23370f9.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 5902,
+                "title": "Studio 3F"
+            }
+        },
+        {
+            "id": 8431,
+            "rating": 1,
+            "comment": "Our stay in NY was perfect. The apartement was really clean and we even had an extra bed. The kitchen is fullly equiped and misses nothing, the free wifi was an extra plus. I would stay there again and can only recommend it...",
+            "host_to_guest": false,
+            "posted_at": "Nov 07 2011 01:17PM",
+            "user": {
+                "id": 95797,
+                "display": "sdenefleh",
+                "url": "https://roomorama.com/users/sdenefleh",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 8819,
+            "rating": 1,
+            "comment": "We got to the appartment really late the night of the arrival and Aram told us how to enter the appartment. He left everything ready for us and with some explanations about the area. He came by the following day and explained the rest. The area was good. We didn't have any problem even though we got sometimes at 2am. Tha appartment was fine and we had everything we need it and the last day he let us leave our stuff till the time we had to go to the airport. Really good experience. Thanks Aram.",
+            "host_to_guest": false,
+            "posted_at": "Nov 28 2011 07:49AM",
+            "user": {
+                "id": 124824,
+                "display": "Cleaner8",
+                "url": "https://roomorama.com/users/Cleaner8",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 8968,
+            "rating": 1,
+            "comment": "The studio was very cozy and clean. It had everything needed for a short NYC stay. \r\nAramkr was such a nice host and you could always reach him.\r\nI would definitely book it again.\r\n",
+            "host_to_guest": false,
+            "posted_at": "Dec 07 2011 01:25PM",
+            "user": {
+                "id": 57989,
+                "display": "tessa1",
+                "url": "https://roomorama.com/users/tessa1",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 9253,
+            "rating": 1,
+            "comment": "i  booked this because there are so many positive feedbacks. its true! aram is a nice host and provide verything you need..the apartment is spacious for 4ppl.the surrounding may look intimidating at first,after  a few night of stay we feel safe walking at night.but i will recommend to walk with a few accompanies if you walk at night.recommended host!",
+            "host_to_guest": false,
+            "posted_at": "Dec 27 2011 04:00PM",
+            "user": {
+                "id": 123125,
+                "display": "jiacai",
+                "url": "https://roomorama.com/users/jiacai",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 9371,
+            "rating": 1,
+            "comment": "our time in NYC was amazing, the apartment is pretty good, comfortable and close to move more easily throughout the city, going back to NYC certainly go back there, thanks Aram",
+            "host_to_guest": false,
+            "posted_at": "Jan 03 2012 02:06AM",
+            "user": {
+                "id": 124594,
+                "display": "andyg",
+                "url": "https://roomorama.com/users/andyg",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/124594/124594_thumbnail-b8f153e6a8f41e4e7d7690e9081c6e43.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 5902,
+                "title": "Studio 3F"
+            }
+        },
+        {
+            "id": 10019,
+            "rating": 1,
+            "comment": "Aram is very helpful, an excellent host. The apartment's beautiful and really spacious! We immediately felt right at home. It's also really close to the subway, where you can take the 6 train downtown. We highly recommend it!",
+            "host_to_guest": false,
+            "posted_at": "Feb 25 2012 09:46AM",
+            "user": {
+                "id": 148176,
+                "display": "margauxco",
+                "url": "https://roomorama.com/users/margauxco",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 10098,
+            "rating": 1,
+            "comment": "Everything went perfectly well, the appartement was clear, modern, confortable and very well situated. We only had a few minors problems, and each time Aram came to help within the hour after we texted him. \r\n//\r\nTout s'est très bien passé, l'appartement était propre, moderne, confortable et très proche du métro. Nous n'avons eu que de problèmes très mineurs, et à chaque fois Aram est venu nous aider très rapidement après un sms.\r\n",
+            "host_to_guest": false,
+            "posted_at": "Mar 03 2012 12:44PM",
+            "user": {
+                "id": 131880,
+                "display": "flobo",
+                "url": "https://roomorama.com/users/flobo",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 10840,
+            "rating": 1,
+            "comment": "Super endroit, bien placé et desservi. Exactement ce qu'il faut après une longue journée de balade et visite de NY Accueil chaleureux du propriétaire. Je recommande!",
+            "host_to_guest": false,
+            "posted_at": "Apr 20 2012 11:30AM",
+            "user": {
+                "id": 156741,
+                "display": "jackojack",
+                "url": "https://roomorama.com/users/jackojack",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 11314,
+            "rating": 1,
+            "comment": "Aram is a great host. the place is a lot bigger than expected, good location close to the subway and a couple of blocks away from target. I would definitely recommend this place.",
+            "host_to_guest": false,
+            "posted_at": "May 13 2012 09:15PM",
+            "user": {
+                "id": 168544,
+                "display": "mongcharlie",
+                "url": "https://roomorama.com/users/mongcharlie",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 11519,
+            "rating": 1,
+            "comment": "Aram, thanks for being so easy to deal with and for answering all my questions when I could not find the info sheet. We enjoyed the space, and everything we needed was there so we could relax. Ahhhhhh! My main recommendations are (1) ear plugs if you sleep on the futon in the front room, 'cos there's considerable street noise (the back room filters out most of it) and (2) strong legs and back 'cos that walk-up staircase is narrow and steep.\r\n\r\nWe like it and were comfortable and would stay here again 'cos it is clean, spacious, and convenient to subways and buses.",
+            "host_to_guest": false,
+            "posted_at": "May 24 2012 01:44AM",
+            "user": {
+                "id": 153316,
+                "display": "je_renee",
+                "url": "https://roomorama.com/users/je_renee",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 11777,
+            "rating": 1,
+            "comment": "",
+            "host_to_guest": false,
+            "posted_at": "Jun 05 2012 04:06PM",
+            "user": {
+                "id": 149228,
+                "display": "grivard",
+                "url": "https://roomorama.com/users/grivard",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        },
+        {
+            "id": 11873,
+            "rating": 1,
+            "comment": "A refreshingly positive surprise! Aram was really helpful with anything and everything, providing us even with umberellas! A great host all in all. And the apartment was big and spacious for even more than five people. A cozy place. I would suggest this to anyone who is planning a trip to Manhattan.\r\n\r\nThank You Aram. We'll most definitely come back again.\r\n\r\nHilla from Finland",
+            "host_to_guest": false,
+            "posted_at": "Jun 11 2012 01:26AM",
+            "user": {
+                "id": 153269,
+                "display": "hillamatilda",
+                "url": "https://roomorama.com/users/hillamatilda",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 12045,
+            "rating": 1,
+            "comment": "We had a great stay. The place was just a couple block from the metro. We were always feeling safe walking to/from the studio. Aram was very helpful and if I go back to NY I will definitly book one of his places again.",
+            "host_to_guest": false,
+            "posted_at": "Jun 18 2012 10:11AM",
+            "user": {
+                "id": 163737,
+                "display": "nfourny",
+                "url": "https://roomorama.com/users/nfourny",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/163737/163737_thumbnail-92a2ed6b438bf2013a1bf93ff0956599.JPG"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 12569,
+            "rating": 1,
+            "comment": "Nice stay and good communication between our selfs and the owner made our stay easy and convenient. The roomarama system worked out perfectly.",
+            "host_to_guest": false,
+            "posted_at": "Jul 16 2012 07:47AM",
+            "user": {
+                "id": 135534,
+                "display": "Ronibald",
+                "url": "https://roomorama.com/users/Ronibald",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 13014,
+            "rating": 1,
+            "comment": "The apartment was just as described online.  We were pleasantly surprised\r\nto find that free wifi was included, and there were also some dishes, a\r\nhair dryer and an iron for our use.  The host was very pleasant and\r\naccommodating.  There are stores, supermarkets and restaurants in the area.\r\n We would highly recommend \"Don Paco Lopez\" on third avenue between 116th\r\nand 117th streets for authentic mexican at a great price!  The #6 train is\r\n2 1/2 blocks away, providing easy access to the rest of the city.  We\r\nwalked around the neighborhood at all hours and felt safe.  We would\r\ndefinitely stay there again!  P.S. the person providing the review is a\r\nnative New Yorker!",
+            "host_to_guest": false,
+            "posted_at": "Aug 07 2012 01:12PM",
+            "user": {
+                "id": 141604,
+                "display": "arosario27",
+                "url": "https://roomorama.com/users/arosario27",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 168,
+                "title": "Budget Studio 1F"
+            }
+        },
+        {
+            "id": 13700,
+            "rating": 1,
+            "comment": "Aram was very accomodating and the appartment was clean and very spacious for the price and location in the city. The appartment was in a great location for visiting the city and was easily accessable by subway a couple of blocks up the street. There was no worries of security in the building and surrounding areas. All in all an enjoyable stay and I would reccommend the appartment to anyone looking for a great value and convenient place to stay in the city.",
+            "host_to_guest": false,
+            "posted_at": "Sep 17 2012 10:48PM",
+            "user": {
+                "id": 192904,
+                "display": "sarah_cove1",
+                "url": "https://roomorama.com/users/sarah_cove1",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/192904/192904_thumbnail-04450f514810de4d6848f5eac828951a.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 169,
+                "title": "Two-Room Manhattan  Apartment 1R"
+            }
+        },
+        {
+            "id": 13960,
+            "rating": 1,
+            "comment": "Cool host! Apartment is clean and well furnitured. The Location ist ok. Thanks for your hospitality.",
+            "host_to_guest": false,
+            "posted_at": "Oct 01 2012 03:29PM",
+            "user": {
+                "id": 54067,
+                "display": "LEPhil",
+                "url": "https://roomorama.com/users/LEPhil",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 5902,
+                "title": "Studio 3F"
+            }
+        },
+        {
+            "id": 13963,
+            "rating": 1,
+            "comment": "We spent 6 days at this apartment (2 people). Aram was kind and helpful. The bedroom is quiet. The apartment is very big but old. ",
+            "host_to_guest": false,
+            "posted_at": "Oct 01 2012 05:20PM",
+            "user": {
+                "id": 187571,
+                "display": "samyula",
+                "url": "https://roomorama.com/users/samyula",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 170,
+                "title": "Large Floor-thru Manhattan Apartment"
+            }
+        },
+        {
+            "id": 14317,
+            "rating": 1,
+            "comment": "Great Service Great location..Had no complaints..:)",
+            "host_to_guest": false,
+            "posted_at": "Oct 21 2012 07:33PM",
+            "user": {
+                "id": 213260,
+                "display": "MrTorres",
+                "url": "https://roomorama.com/users/MrTorres",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 1222,
+                "title": "Manhattan Studio4F with kitchen"
+            }
+        },
+        {
+            "id": 14651,
+            "rating": 1,
+            "comment": "Really nice place to stay. All I can say that Aram is good renter, and thanks him for everything, Place is quiet and not so far from downtown. Everything you need is near. Thanks Aram! Latvians",
+            "host_to_guest": false,
+            "posted_at": "Nov 12 2012 09:49PM",
+            "user": {
+                "id": 196589,
+                "display": "girts_spilbergs",
+                "url": "https://roomorama.com/users/girts_spilbergs",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/196589/196589_thumbnail-8838fd4035441cb05aa3d1a791886f58.jpg"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        },
+        {
+            "id": 14776,
+            "rating": 1,
+            "comment": "The Apartment was very clean and had everything we needed for a 5 night stay for 3 people. The neighborhood is safe and it is easy to get there using public transportation. The host provided for everything we needed and was available 24/7 on his phone.",
+            "host_to_guest": false,
+            "posted_at": "Nov 22 2012 01:53AM",
+            "user": {
+                "id": 46685,
+                "display": "adrianecker",
+                "url": "https://roomorama.com/users/adrianecker",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/46685/46685_thumbnail-c80f7f0eabc9a192fc59a5b51e2e201c.JPG"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 1222,
+                "title": "Manhattan Studio4F with kitchen"
+            }
+        },
+        {
+            "id": 15827,
+            "rating": 1,
+            "comment": "Everything was OK and Aram is a very responsible house owner. Nicely heated rooms,  furnitured to support all needs. And yes - it has a  100 y\\o fireplace (it is not in use though, but you still have it) windows and  giant mirrors framed in carved wood, decorated wooden floors and well working  window shutter. The nearest Subway is six minutes on feet. ",
+            "host_to_guest": false,
+            "posted_at": "Feb 03 2013 04:50PM",
+            "user": {
+                "id": 237207,
+                "display": "lev_lifshits",
+                "url": "https://roomorama.com/users/lev_lifshits",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 5902,
+                "title": "Studio 3F"
+            }
+        },
+        {
+            "id": 15961,
+            "rating": 1,
+            "comment": "Couldn't have asked for a nicer host.  The apartment matched the advertisement. Found an Aldi grocery store, Target, Old Navy and a few other stores just past 1 ave and Aram provides a shopping cart to take to the store, very helpful!!!  The walls and doors are somewhat thin and noise can be heard from other apts but generally this was not a problem.  Aram is reachable if/when needed and is extremely kind and helpful. ",
+            "host_to_guest": false,
+            "posted_at": "Feb 15 2013 04:08PM",
+            "user": {
+                "id": 233621,
+                "display": "Brwnidgirl70",
+                "url": "https://roomorama.com/users/Brwnidgirl70",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 291,
+                "display": "aramkr",
+                "certified": true,
+                "url": "https://roomorama.com/users/aramkr",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "room": {
+                "id": 171,
+                "title": "Manhattan Studio3R with Kitchen"
+            }
+        }
+    ],
+    "status": 200
+}

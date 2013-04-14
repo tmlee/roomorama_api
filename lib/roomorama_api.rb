@@ -86,6 +86,10 @@ module RoomoramaApi
 			api_call "users", options, :post
 		end
 
+		def users_reviews(user_id, options={})
+			api_call "users/" + user_id.to_s + "/reviews", options
+		end
+
 		#### Hosts/Properties
 
 		def hosts_properties_list(options={})
