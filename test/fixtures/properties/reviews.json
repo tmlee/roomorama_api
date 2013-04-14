@@ -1,0 +1,149 @@
+{
+    "result": [
+        {
+            "id": 13753,
+            "rating": 1,
+            "comment": "Very nice flat and lovely host. The sofa bed could be more comfortable - ok for a few nights stay though. ",
+            "host_to_guest": false,
+            "posted_at": "Sep 20 2012 01:57PM",
+            "user": {
+                "id": 202578,
+                "display": "marion_vieweg",
+                "url": "https://roomorama.com/users/marion_vieweg",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        },
+        {
+            "id": 13626,
+            "rating": 1,
+            "comment": "Marion was such an easy guest to host! We barely saw each other as our schedules were so different but fortunately we did manage to say hello and goodbye before she left.  She was neat and clean and communication was easy. I'd be happy to host her again. ",
+            "host_to_guest": true,
+            "posted_at": "Sep 13 2012 12:57PM",
+            "user": {
+                "id": 202578,
+                "display": "marion_vieweg",
+                "url": "https://roomorama.com/users/marion_vieweg",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        },
+        {
+            "id": 10491,
+            "rating": 1,
+            "comment": "M's Place is just as wonderfull as one can see in the pictures! The apartment is lovely, located in a really nice area of Washington - full of shops, restaurants, bars, close to the Metro station, and safe even for girls who are travelling alone!-. And Melissa is a fantastic host! She's so friendly, she gave me a lot of advices regarding places to visit, restaurants and attractions in the city. If I'll ever visit Washington again, I'll certainly stay at M's place! ",
+            "host_to_guest": false,
+            "posted_at": "Apr 02 2012 02:17PM",
+            "user": {
+                "id": 146726,
+                "display": "Zuleika",
+                "url": "https://roomorama.com/users/Zuleika",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/146726/146726_thumbnail-69efa0f3cb1827679461781a29dea26d.jpg"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        },
+        {
+            "id": 10365,
+            "rating": 1,
+            "comment": "I miss her already! Zuleika was lovely - thoughtful, friendly, engaging, respectful, neat, and clean. She left everything in perfect order. I'd love to host her again!",
+            "host_to_guest": true,
+            "posted_at": "Mar 25 2012 01:11AM",
+            "user": {
+                "id": 146726,
+                "display": "Zuleika",
+                "url": "https://roomorama.com/users/Zuleika",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/146726/146726_thumbnail-69efa0f3cb1827679461781a29dea26d.jpg"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        },
+        {
+            "id": 4616,
+            "rating": 1,
+            "comment": "Bert was very kind and easy to share the apartment with. I'd welcome him back anytime.",
+            "host_to_guest": true,
+            "posted_at": "Apr 15 2011 08:48PM",
+            "user": {
+                "id": 67917,
+                "display": "bert1995",
+                "url": "https://roomorama.com/users/bert1995",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        },
+        {
+            "id": 4549,
+            "rating": 1,
+            "comment": "Very nice apartment.  Great value for the money",
+            "host_to_guest": false,
+            "posted_at": "Apr 10 2011 07:00PM",
+            "user": {
+                "id": 67917,
+                "display": "bert1995",
+                "url": "https://roomorama.com/users/bert1995",
+                "avatar_thumbnail": "https://assets.roomorama.com/assets/avatar_not_found-thumbnail-925db8223099583ad68a479b6ff2a7bf.png"
+            },
+            "host": {
+                "id": 53387,
+                "display": "DCMelissa",
+                "certified": true,
+                "url": "https://roomorama.com/users/DCMelissa",
+                "avatar_thumbnail": "https://photos.roomorama.com/photos/avatars/53387/53387_thumbnail-4098786ff7c27bcbf559136704921c89.jpg"
+            },
+            "room": {
+                "id": 8582,
+                "title": "Logan Circle Loft Share"
+            }
+        }
+    ],
+    "status": 200
+}

@@ -49,6 +49,13 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"].first["available"], true
 	end
 
+	def test_properties_reviews
+		stub_get("https://api.roomorama.com/v1.0/rooms/8582/reviews", 'properties/reviews.json')
+		result = @client.properties_reviews 8582
+		assert_equal result["result"].first["rating"], 1
+		assert_equal result["result"].first["room"]["id"], 8582
+	end
+
 	#### Favorites
 
 	def test_favorites_list
