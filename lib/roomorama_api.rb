@@ -39,6 +39,10 @@ module RoomoramaApi
 			api_call "rooms/" + room_id.to_s + "/availabilities", options
 		end
 
+		def properties_reviews(room_id, options={})
+			api_call "rooms/" + room_id.to_s + "/reviews", options
+		end
+
 
 		#### Favorites
 
