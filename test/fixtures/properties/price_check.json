@@ -1,0 +1,29 @@
+{
+    "result": {
+        "check_in": "2013-07-01",
+        "check_out": "2013-07-10",
+        "num_guests": 1,
+        "rental_amount": 6588,
+        "tax_amount": 1384,
+        "subtotal": 7972,
+        "fee": 1196,
+        "total": 9168,
+        "currency_code": "USD",
+        "total_in_usd": 9168,
+        "deposit_type": "cash",
+        "deposit_amount": 0,
+        "deposit_currency_code": "USD",
+        "cancellation_policy": null,
+        "room": {
+            "id": 60425,
+            "title": "5 Bedroom villa with fantastic view",
+            "thumbnail": "https://photos.roomorama.com/photos/rooms/670550/670550_search_result.jpg"
+        },
+        "host": {
+            "id": 171961,
+            "display": "bali_apartments",
+            "url": "https://roomorama.com/users/bali_apartments"
+        }
+    },
+    "status": 200
+}

@@ -49,6 +49,14 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 		assert_equal result["result"].first["available"], true
 	end
 
+	def test_properties_price_check
+		stub_get("https://api.roomorama.com/v1.0/inquiries/new.json?room_id=60425&check_in=2013-07-01&check_out=2013-07-10", 'properties/price_check.json')
+		result = @client.properties_price_check 60425, check_in:"2013-07-01", check_out:"2013-07-10"
+		assert_equal result["result"]["total"], 9168
+		assert_equal result["result"]["check_in"], "2013-07-01"
+		assert_equal result["result"]["check_out"], "2013-07-10"
+	end
+
 	def test_properties_reviews
 		stub_get("https://api.roomorama.com/v1.0/rooms/8582/reviews", 'properties/reviews.json')
 		result = @client.properties_reviews 8582
