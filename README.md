@@ -56,6 +56,7 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	properties_get_data
 	properties_find_similar
 	properties_availabilities
+	properties_price_check
 	properties_reviews
 	favorites_list
 	favorites_create
@@ -69,4 +70,8 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	users_reviews
 	hosts_properties_list
 	hosts_properties_show
+
+### Can't find the API Call you want?
+
+	Submit an issue or a pull request.
 	
