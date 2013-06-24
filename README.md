@@ -12,7 +12,7 @@ This gem does not handle OAuth authentication or token generation. You may want 
 
 Add this line to your application's Gemfile:
 
-    gem 'roomorama_api', :git => 'git@github.com:tmlee/roomorama_api.git'
+    gem 'roomorama_api'
 
 And then execute:
 
