@@ -1,4 +1,13 @@
 require "roomorama_api/version"
+
+require "roomorama_api/api/destinations"
+require "roomorama_api/api/favorites"
+require "roomorama_api/api/perks"
+require "roomorama_api/api/properties"
+require "roomorama_api/api/users"
+
+require "roomorama_api/api/hosts_properties"
+
 require "faraday"
 require "json"
 
@@ -6,100 +15,19 @@ module RoomoramaApi
 
   class Client
 
+    include RoomoramaApi::Destinations
+    include RoomoramaApi::Favorites
+    include RoomoramaApi::Perks
+    include RoomoramaApi::Properties
+    include RoomoramaApi::Users
+    include RoomoramaApi::HostsProperties
+
     def initialize(oauth_token=nil)
-      @oauth_token = oauth_token if oauth_token
+      @oauth_token = oauth_token
     end
 
     BASE_URL = 'https://api.roomorama.com/'
     API_VERSION = 'v1.0'
-
-    ### Destinations
-
-    def destinations_all(options={})
-      api_call "destinations", options
-    end
-
-    #### Properties
-
-    def properties_find(options={})
-      api_call "rooms", options
-    end
-
-    def properties_get_data(room_id, options={})
-      api_call "rooms/" + room_id.to_s, options
-    end
-
-    def properties_find_similar(room_id, options={})
-      api_call "rooms/" + room_id.to_s + "/similar", options
-    end
-
-    def properties_availabilities(room_id, options={})
-      api_call "rooms/" + room_id.to_s + "/availabilities", options
-    end
-
-    def properties_price_check(room_id, options={})
-      api_call "inquiries/new.json", options.merge(room_id: room_id)
-    end
-
-    def properties_reviews(room_id, options={})
-      api_call "rooms/" + room_id.to_s + "/reviews", options
-    end
-
-    #### Favorites
-
-    def favorites_list(options = {})
-      api_call "favorites", options
-    end
-
-    def favorites_create(options = {})
-      api_call "favorites", options, :post
-    end
-
-    def favorites_delete(id, options = {})
-      api_call "favorites/" + id.to_s, options, :delete
-    end
-
-    #### Perks
-
-    def perks_list(options={})
-      api_call "perks", options
-    end
-
-    def perks_get_data(perk_id, options={})
-      api_call "perks/" + perk_id.to_s, options
-    end
-
-    #### Users
-
-    def users_me(options={})
-      api_call "me", options
-    end
-
-    def users_update_profile(options={})
-      api_call "me", options, :put
-    end
-
-    def users_get_data(user_id, options={})
-      api_call "users/" + user_id.to_s, options
-    end
-
-    def users_register(options={})
-      api_call "users", options, :post
-    end
-
-    def users_reviews(user_id, options={})
-      api_call "users/" + user_id.to_s + "/reviews", options
-    end
-
-    #### Hosts/Properties
-
-    def hosts_properties_list(options={})
-      api_call "host/rooms", options
-    end
-
-    def hosts_properties_show(room_id, options={})
-      api_call "host/rooms/" + room_id.to_s, options
-    end
 
     private
 
@@ -109,6 +37,7 @@ module RoomoramaApi
 
     def api_call(method_name, options, verb=:get)
       response = connection(method_name, options, verb)
+      puts response.inspect
       parse_response response
     end
 
@@ -122,12 +51,11 @@ module RoomoramaApi
     end
 
     def connection(method_name, options, verb)
-
       conn = Faraday.new(:url => api_url) do |faraday|
         faraday.request  :url_encoded
           #faraday.response :logger
           faraday.adapter  Faraday.default_adapter
-          faraday.headers['Authorization'] = "Bearer " + @oauth_token
+          faraday.headers['Authorization'] = "Bearer " + @oauth_token if @oauth_token
       end
 
       if verb == :put
@@ -150,18 +78,18 @@ module RoomoramaApi
       message = "(#{response.status})"
 
       case response.status.to_i
-        when 400
-          raise BadRequest, message
-        when 401
-          raise Unauthorized, message
-        when 403
-          raise General, message
-        when 404
-          raise NotFound, message
-        when 500
-          raise InternalError, "An internal error is thrown."
-        when 502..503
-          raise Unavailable, message
+      when 400
+        raise BadRequest, message
+      when 401
+        raise Unauthorized, message
+      when 403
+        raise General, message
+      when 404
+        raise NotFound, message
+      when 500
+        raise InternalError, "An internal error is thrown."
+      when 502, 503
+        raise Unavailable, message
       end
     end
 
