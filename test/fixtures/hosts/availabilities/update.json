@@ -1,0 +1,15 @@
+[
+    {
+        "date": "2013-08-01",
+        "available": true,
+        "currency_code": "SGD",
+        "nightly_rate": 1,
+        "weekly_rate": 1,
+        "monthly_rate": 1,
+        "can_checkin": true,
+        "can_checkout": true,
+        "default": false,
+        "inquiry_id": "null",
+        "errors": []
+    }
+]
