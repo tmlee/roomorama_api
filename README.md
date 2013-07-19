@@ -68,8 +68,12 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
   users_get_data
   users_register
   users_reviews
-  hosts_properties_list
-  hosts_properties_show
+  host_properties_list
+  host_properties_show
+  host_properties_create
+  host_properties_update
+  host_availabilities_list
+  host_availabilities_update
 
 ### Can't find the API Call you want?
 
