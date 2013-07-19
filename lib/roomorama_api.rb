@@ -6,7 +6,7 @@ require "roomorama_api/api/perks"
 require "roomorama_api/api/properties"
 require "roomorama_api/api/users"
 
-require "roomorama_api/api/hosts_properties"
+require "roomorama_api/api/host_properties"
 
 require "faraday"
 require "json"
@@ -20,7 +20,7 @@ module RoomoramaApi
     include RoomoramaApi::Perks
     include RoomoramaApi::Properties
     include RoomoramaApi::Users
-    include RoomoramaApi::HostsProperties
+    include RoomoramaApi::HostProperties
 
     def initialize(oauth_token=nil)
       @oauth_token = oauth_token
