@@ -15,13 +15,13 @@ module RoomoramaApi
 
   class Client
 
-    include RoomoramaApi::Destinations
-    include RoomoramaApi::Favorites
-    include RoomoramaApi::Perks
-    include RoomoramaApi::Properties
-    include RoomoramaApi::Users
-    include RoomoramaApi::HostProperties
-    include RoomoramaApi::HostAvailabilities
+    include RoomoramaApi::Api::Destinations
+    include RoomoramaApi::Api::Favorites
+    include RoomoramaApi::Api::Perks
+    include RoomoramaApi::Api::Properties
+    include RoomoramaApi::Api::Users
+    include RoomoramaApi::Api::HostProperties
+    include RoomoramaApi::Api::HostAvailabilities
 
     def initialize(oauth_token=nil)
       @oauth_token = oauth_token
