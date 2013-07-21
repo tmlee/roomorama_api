@@ -1,0 +1,20 @@
+{
+    "result": {
+        "availabilities": [
+            {
+                "date": "2013-01-01",
+                "available": true,
+                "currency_code": "SGD",
+                "nightly_rate": 10,
+                "weekly_rate": 70,
+                "monthly_rate": 300,
+                "can_checkin": true,
+                "can_checkout": true,
+                "default": true,
+                "inquiry_id": "null"
+            }
+        ]
+    },
+    "count": 1,
+    "status": 200
+}
