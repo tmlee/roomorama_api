@@ -1,3 +1,11 @@
+## v0.2.0
+* New API Calls for Host
+  * host_properties_create
+  * host_properties_update
+  * host_availabilities_list
+  * host_availabilities_update
+* Namespacing API ruby files
+
 ## v0.1.0
 
 * Initial release
