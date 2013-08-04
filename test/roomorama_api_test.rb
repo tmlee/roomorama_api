@@ -165,6 +165,20 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
     assert_equal result[0].is_a?(Hash), true
   end
 
+  #### Host/Inquiries
+
+  def test_hosts_inquiries_list
+    stub_get("https://api.roomorama.com/v1.0/host/inquiries.json", "hosts/inquiries/list.json")
+    result = @client.host_inquiries_list
+    assert_equal result["count"], 2
+  end
+
+  def test_hosts_inquiries_show
+    stub_get("https://api.roomorama.com/v1.0/host/inquiries/9999.json", "hosts/inquiries/show.json")
+    result = @client.host_inquiries_show 9999
+    assert_equal result["result"]["id"], 9999
+  end
+
   # def test_get_data_for_an_empty_property
   #   assert_raises RoomoramaApi::NotFound do
   #     result = @client.properties_get_data 500

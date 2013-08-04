@@ -1,0 +1,58 @@
+{
+    "result": [
+        {
+            "id": 9999,
+            "fee": 8,
+            "total": 58,
+            "state": "expired",
+            "check_in": "2013-10-16",
+            "check_out": "2013-10-17",
+            "num_guests": 1,
+            "subtotal_for_host": 50,
+            "total_for_host": 50,
+            "currency_code": "SGD",
+            "express_booking": false,
+            "url": "https://roomorama.com/host/inquiries/9999",
+            "created_at": "2013-07-02 01:38:46",
+            "updated_at": "2013-07-02 02:42:28",
+            "room": {
+                "id": 9999,
+                "title": "This is a test room",
+                "thumbnail": "https://photos.roomorama.com/photos.jpg"
+            },
+            "user": {
+                "id": 9999,
+                "display": "test_user",
+                "url": "https://roomorama.com/users/test_user"
+            }
+        },
+        {
+            "id": 10000,
+            "fee": 8,
+            "total": 58,
+            "state": "expired",
+            "check_in": "2013-10-16",
+            "check_out": "2013-10-17",
+            "num_guests": 1,
+            "subtotal_for_host": 50,
+            "total_for_host": 50,
+            "currency_code": "SGD",
+            "express_booking": false,
+            "url": "https://roomorama.com/host/inquiries/10000",
+            "created_at": "2013-07-02 01:38:46",
+            "updated_at": "2013-07-02 02:42:28",
+            "room": {
+                "id": 9999,
+                "title": "This is a test room",
+                "thumbnail": "https://photos.roomorama.com/photos.jpg"
+            },
+            "user": {
+                "id": 9999,
+                "display": "test_user",
+                "url": "https://roomorama.com/users/test_user"
+            }
+        }
+    ],
+    "count": 2,
+    "status": 200
+}

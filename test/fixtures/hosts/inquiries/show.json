@@ -1,0 +1,37 @@
+{
+    "result": {
+        "id": 9999,
+        "state": "expired",
+        "check_in": "2013-10-16",
+        "check_out": "2013-10-17",
+        "num_guests": 1,
+        "last_message": null,
+        "subtotal": 50,
+        "additional_fee": 0,
+        "subtotal_for_host": 50,
+        "total_for_host": 50,
+        "fee": 8,
+        "total": 58,
+        "currency_code": "SGD",
+        "deposit_type": "cash",
+        "deposit_amount": 25,
+        "deposit_currency_code": "USD",
+        "express_booking": false,
+        "url": "https://roomorama.com/host/inquiries/9999",
+        "cancellation_policy": "testing cancellation policy creation apply to all properties",
+        "created_at": "2013-07-02 01:38:46",
+        "updated_at": "2013-07-02 02:42:28",
+        "room": {
+            "id": 9999,
+            "title": "Test Room",
+            "thumbnail": "https://photos.roomorama.com/photos.jpg"
+        },
+        "user": {
+            "id": 9999,
+            "display": "test_user",
+            "url": "https://roomorama.com/users/test_user"
+        },
+        "messages": []
+    },
+    "status": 200
+}
