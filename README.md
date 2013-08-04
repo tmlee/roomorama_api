@@ -74,6 +74,8 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	host_properties_update
 	host_availabilities_list
 	host_availabilities_update
+	host_inquiries_list
+	host_inquiries_show
 
 ### Can't find the API Call you want?
 
