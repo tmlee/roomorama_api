@@ -139,11 +139,19 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
     assert_equal result["result"]["id"], 9999
   end
 
-  # def test_hosts_properties_create
-  # end
+  def test_hosts_properties_create
+    stub_post("https://api.roomorama.com/v1.0/host/rooms/9999", "hosts/properties/create.json")
+    result = @client.host_properties_create 9999
+    assert_equal result["result"]["id"], 9999
+  end
 
-  # def test_hosts_properties_delete
-  # end
+  def test_hosts_properties_delete
+    stub_put("https://api.roomorama.com/v1.0/host/rooms/9999", "hosts/properties/update.json")
+    result = @client.host_properties_update 9999
+    assert_equal result["result"]["id"], 9999
+  end
+
+  #### Hosts/Availabilities
 
   def test_hosts_availabilities_list
     stub_get("https://api.roomorama.com/v1.0/host/rooms/9999/availabilities.json", "hosts/availabilities/list.json")

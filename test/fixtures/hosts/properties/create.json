@@ -1,0 +1,84 @@
+{
+    "result": {
+        "id": 9999,
+        "type": "room",
+        "internal_id": null,
+        "subtype": null,
+        "title": "ddgh",
+        "postal_code": null,
+        "city": "dghh",
+        "neighborhood": null,
+        "lat": "0.0",
+        "lng": "0.0",
+        "description": "dgvb",
+        "number_of_double_beds": null,
+        "number_of_single_beds": null,
+        "number_of_sofa_beds": null,
+        "surface": null,
+        "surface_unit": null,
+        "amenities": [],
+        "max_guests": 0,
+        "minimum_stay": 134,
+        "check_in_instructions": null,
+        "address": "singapore",
+        "apartment_number": null,
+        "number_of_bedrooms": null,
+        "number_of_bathrooms": null,
+        "floor": null,
+        "smoking_allowed": true,
+        "pets_allowed": false,
+        "children_welcome": false,
+        "check_in_time": null,
+        "check_out_time": null,
+        "currency_code": "SGD",
+        "nightly_rate": 122,
+        "weekly_rate": 854,
+        "monthly_rate": 3660,
+        "multi_unit": false,
+        "security_deposit": {
+            "amount": null,
+            "type": null,
+            "currency_code": null
+        },
+        "tax_rate": null,
+        "extra_charges": null,
+        "rate_base_max_guests": null,
+        "extra_guest_surcharge": null,
+        "default_to_available": true,
+        "cancellation_policy": null,
+        "terms_and_conditions": null,
+        "services": {
+            "cleaning": {
+                "available": null,
+                "rate": null,
+                "required": null
+            },
+            "airport_pickup": {
+                "available": null,
+                "rate": null
+            },
+            "car_rental": {
+                "available": null,
+                "rate": null
+            },
+            "concierge": {
+                "available": null,
+                "rate": null
+            }
+        },
+        "disabled": true,
+        "in_search_results": false,
+        "thumbnail": null,
+        "created_at": "2013-07-10 03:32:38",
+        "updated_at": "2013-08-04 04:17:17",
+        "destination": {
+            "id": 1476,
+            "name": "Singapore",
+            "long_name": "Singapore",
+            "url_name": "singapore",
+            "url_path": "singapore"
+        },
+        "units": []
+    },
+    "status": 200
+}
