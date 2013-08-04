@@ -125,41 +125,41 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
     assert_equal result["result"][0]["host"]["id"], 291
   end
 
-  #### Hosts/Properties
+  #### Host/Properties
 
-  def test_hosts_properties_list
+  def test_host_properties_list
     stub_get("https://api.roomorama.com/v1.0/host/rooms", "hosts/properties/list.json")
     result = @client.host_properties_list
     assert_equal result["result"][0]["id"], 9999
   end
 
-  def test_hosts_properties_show
+  def test_host_properties_show
     stub_get("https://api.roomorama.com/v1.0/host/rooms/9999", "hosts/properties/show.json")
     result = @client.host_properties_show 9999
     assert_equal result["result"]["id"], 9999
   end
 
-  def test_hosts_properties_create
+  def test_host_properties_create
     stub_post("https://api.roomorama.com/v1.0/host/rooms/9999", "hosts/properties/create.json")
     result = @client.host_properties_create 9999
     assert_equal result["result"]["id"], 9999
   end
 
-  def test_hosts_properties_delete
+  def test_host_properties_delete
     stub_put("https://api.roomorama.com/v1.0/host/rooms/9999", "hosts/properties/update.json")
     result = @client.host_properties_update 9999
     assert_equal result["result"]["id"], 9999
   end
 
-  #### Hosts/Availabilities
+  #### Host/Availabilities
 
-  def test_hosts_availabilities_list
+  def test_host_availabilities_list
     stub_get("https://api.roomorama.com/v1.0/host/rooms/9999/availabilities.json", "hosts/availabilities/list.json")
     result = @client.host_availabilities_list 9999
     assert_equal result["count"], 1
   end
 
-  def test_hosts_availabilities_update
+  def test_host_availabilities_update
     stub_put("https://api.roomorama.com/v1.0/host/rooms/9999/availabilities.json", "hosts/availabilities/update.json")
     result = @client.host_availabilities_update 9999
     assert_equal result[0].is_a?(Hash), true
@@ -167,13 +167,13 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
 
   #### Host/Inquiries
 
-  def test_hosts_inquiries_list
+  def test_host_inquiries_list
     stub_get("https://api.roomorama.com/v1.0/host/inquiries.json", "hosts/inquiries/list.json")
     result = @client.host_inquiries_list
     assert_equal result["count"], 2
   end
 
-  def test_hosts_inquiries_show
+  def test_host_inquiries_show
     stub_get("https://api.roomorama.com/v1.0/host/inquiries/9999.json", "hosts/inquiries/show.json")
     result = @client.host_inquiries_show 9999
     assert_equal result["result"]["id"], 9999
