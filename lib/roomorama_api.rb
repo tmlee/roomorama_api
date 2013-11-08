@@ -15,7 +15,6 @@ require "json"
 module RoomoramaApi
 
   class Client
-
     include RoomoramaApi::Api::Destinations
     include RoomoramaApi::Api::Favorites
     include RoomoramaApi::Api::Perks
@@ -29,6 +28,14 @@ module RoomoramaApi
       @oauth_token = oauth_token
     end
 
+    def self.debug
+      @debug ||= false
+    end
+
+    def self.debug=(v)
+      @debug = !!v
+    end
+
     BASE_URL = 'https://api.roomorama.com/'
     API_VERSION = 'v1.0'
 
@@ -40,7 +47,7 @@ module RoomoramaApi
 
     def api_call(method_name, options, verb=:get)
       response = connection(method_name, options, verb)
-      puts response.inspect
+      puts response.inspect if self.class.debug
       parse_response response
     end
 
@@ -56,26 +63,20 @@ module RoomoramaApi
     def connection(method_name, options, verb)
       conn = Faraday.new(:url => api_url) do |faraday|
         faraday.request  :url_encoded
-          #faraday.response :logger
+          #faraday.response(:logger) if self.class.debug
           faraday.adapter  Faraday.default_adapter
+          faraday.headers['User-Agent'] = "RoomoramaApi gem v#{VERSION}"
           faraday.headers['Authorization'] = "Bearer " + @oauth_token if @oauth_token
       end
 
-      if verb == :put
-        response = conn.put(method_name, options)
-      elsif verb == :post
-        response = conn.post(method_name, options)
-      elsif verb == :delete
-        response = conn.delete(method_name)
-      else
-        response = conn.get(method_name + "?" + to_query_params(options))
+      case verb
+        when :put then conn.put(method_name, options)
+        when :post then conn.post(method_name, options)
+        when :delete then conn.delete(method_name, options)
+        else conn.get(method_name, options)
       end
     end
 
-
-    def to_query_params(options)
-      options.collect { |key, value| "#{key}=#{value}" }.join('&')
-    end
 
     def raise_errors(response)
       message = "(#{response.status})"
