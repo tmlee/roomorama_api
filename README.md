@@ -77,6 +77,13 @@ Currently this gem does not handle any oauth authentication yet. Host and Guest 
 	host_inquiries_list
 	host_inquiries_show
 
+### Debugging
+
+Turn on debug mode with
+
+	RoomoramaApi::Client = true
+
+
 ### Can't find the API Call you want?
 
 	Submit an issue or a pull request.
