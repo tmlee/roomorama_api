@@ -60,6 +60,7 @@ module RoomoramaApi
   				403 => General,
   				404 => NotFound,
   				409 => Conflict,
+  				422 => UnprocessableEntity,
   				500 => InternalError,
   				502 => Unavailable,
   				503 => Unavailable
