@@ -87,6 +87,6 @@ module RoomoramaApi
       end  
     end
 
-  end
+  end # end class Client
 
-end
+end # end module RoomoramaApi
