@@ -66,7 +66,7 @@ module RoomoramaApi
     def connection(method_name, options, verb)
       conn = Faraday.new(:url => api_url) do |faraday|
         faraday.request  :url_encoded
-          #faraday.response(:logger) if self.class.debug
+          faraday.response(:logger) if self.class.debug
           faraday.adapter  Faraday.default_adapter
           faraday.headers['User-Agent'] = "RoomoramaApi gem v#{VERSION}"
           faraday.headers['Authorization'] = "Bearer " + @oauth_token if @oauth_token
