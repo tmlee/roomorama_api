@@ -179,6 +179,15 @@ class RoomoramaApiTest < MiniTest::Unit::TestCase
     assert_equal result["result"]["id"], 9999
   end
 
+  #### Errors
+
+  def test_raise_not_found_error
+    FakeWeb.register_uri(:get, "https://api.roomorama.com/v1.0/destinations", body: "Nothing found", status: ["404", "Not Found"])
+    assert_raises ::RoomoramaApi::Api::Errors::NotFound do
+      @client.destinations_all
+    end
+  end
+
   # def test_get_data_for_an_empty_property
   #   assert_raises RoomoramaApi::NotFound do
   #     result = @client.properties_get_data 500
