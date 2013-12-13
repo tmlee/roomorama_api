@@ -8,6 +8,7 @@ require "roomorama_api/api/users"
 require "roomorama_api/api/host_properties"
 require "roomorama_api/api/host_availabilities"
 require "roomorama_api/api/host_inquiries"
+require "roomorama_api/api/errors"
 
 require "faraday"
 require "json"
@@ -23,6 +24,8 @@ module RoomoramaApi
     include RoomoramaApi::Api::HostProperties
     include RoomoramaApi::Api::HostAvailabilities
     include RoomoramaApi::Api::HostInquiries
+
+    include RoomoramaApi::Api::Errors
 
     def initialize(oauth_token=nil)
       @oauth_token = oauth_token
@@ -79,31 +82,11 @@ module RoomoramaApi
 
 
     def raise_errors(response)
-      message = "(#{response.status})"
-
-      case response.status.to_i
-      when 400
-        raise BadRequest, message
-      when 401
-        raise Unauthorized, message
-      when 403
-        raise General, message
-      when 404
-        raise NotFound, message
-      when 500
-        raise InternalError, "An internal error is thrown."
-      when 502, 503
-        raise Unavailable, message
-      end
+      if e = HTTP_STATUS_ERRORS[response.status.to_i]
+        raise e
+      end  
     end
 
   end
-
-  class BadRequest    < StandardError; end
-  class Unauthorized  < StandardError; end
-  class General       < StandardError; end
-  class Unavailable   < StandardError; end
-  class InternalError < StandardError; end
-  class NotFound      < StandardError; end
 
 end
