@@ -84,7 +84,7 @@ module RoomoramaApi
     def raise_errors(response)
       if e = HTTP_STATUS_ERRORS[response.status.to_i]
         raise e
-      end  
+      end
     end
 
   end # end class Client
